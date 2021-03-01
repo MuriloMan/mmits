@@ -1,4 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
-
-/* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap'
+@import 'fonts'
+@import 'variables'
+
+html
+  font-size: $fontsizeDefault
+  font-family: Georgia!important
+
+@include media-breakpoint-up(sm)
+  html
+    font-size: $fontsizeDefaultsm
+
+@include media-breakpoint-up(md)
+  html
+    font-size: $fontsizeDefaultmd
+
+@include media-breakpoint-up(lg)
+  html
+    font-size: $fontsizeDefaultlg
+
+@include media-breakpoint-up(xl)
+  html
+    font-size: $fontsizeDefaultxl
+
+h1
+  font-size: 1.5rem!important
+
+h2
+  font-size: 1.2rem!important
+
+h3
+  font-size: 1.1rem!important

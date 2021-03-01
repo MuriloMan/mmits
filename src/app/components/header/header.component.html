@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light maxwidth mx-auto nbgc">
+  <button class="navbar-toggler px-1" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand mr-0" href="/">
+    <img src="../../assets/symbol mmits.svg" alt="{{m.mmitslogo}}" class="d-inline-block align-top btn-home-mmits" loading="lazy">
+  </a>
+  <a class="navbar-brand d-lg-none mr-0 px-1 navbar-toggler">
+    <img (click)="toNextLanguage()" src="../../assets/{{flag}}.svg" alt="{{languageIndex === 1 ? m.toEnglish: m.toPortuguese}}" class="btn-home-mmits d-inline-block align-top btn-home-mmits" loading="lazy">
+  </a>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto mx-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" routerLink="/">{{m.home}} <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">{{m.about}}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#whatwedo">{{m.whatwedo}}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">{{m.contact}}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" (click)="showCredits()">{{m.credits}}</a>
+      </li>
+      <li class="nav-item d-none d-lg-block">
+        <a class="nav-link navbar-brand" href="#">
+          <img (click)="toNextLanguage()" src="../../assets/{{flag}}.svg" alt="{{languageIndex === 1 ? m.toEnglish: m.toPortuguese}}" class="btn-home-mmits d-inline-block align-top btn-home-mmits" loading="lazy">
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>

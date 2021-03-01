@@ -1,17 +1,5 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>MMITS</title>
-  </head>
-  <body>
-    <div class="container-fluid">
-      <app-header></app-header>
-      <router-outlet></router-outlet>
-      <app-footer></app-footer>
-    </div>
-  </body>
-</html>
+<div class="container-fluid">
+  <app-header [(lang)]="lang" [(showCreditsFlag)]="showCreditsFlag"></app-header>
+  <app-home [lang]="lang" [showCreditsFlag]="showCreditsFlag"></app-home>
+  <app-footer [lang]="lang" [(showCreditsFlag)]="showCreditsFlag"></app-footer>
+</div>
