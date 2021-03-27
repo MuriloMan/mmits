@@ -214,6 +214,31 @@
             "key": "valuesDesc",
             "valuePtBr": "Temos comprometimento com nossas entregas.\n Persistência em encontrar soluções apropriadas.\n Buscamos inovações em desenvolver soluções.",
             "valueEnUs": "We are committed to our deliveries. \n Persistence in finding appropriated solutions. \n We seek innovations in developing solutions."
+        },
+        {
+            "key": "mmitsAttrb1",
+            "valuePtBr": "Consultoria em TI",
+            "valueEnUs": "IT Consulting"
+        },
+        {
+            "key": "mmitsAttrb2",
+            "valuePtBr": "Profissionais UI/UX",
+            "valueEnUs": "UI/UX Professionals"
+        },
+        {
+            "key": "mmitsAttrb3",
+            "valuePtBr": "Designs responsivos",
+            "valueEnUs": "Responsible designs"
+        },
+        {
+            "key": "mmitsAttrb4",
+            "valuePtBr": "Testes de Usabilidade/Acessibilidade",
+            "valueEnUs": "Usability/Accessability tests"
+        },
+        {
+            "key": "mmitsAttrb5",
+            "valuePtBr": "Aplicativos mobile e Soluções Web",
+            "valueEnUs": "Mobile Apps and Web Solutions"
         }
     ]
 }
