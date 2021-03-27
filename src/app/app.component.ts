@@ -8,7 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
   title = 'mmits-site';
   public lang: string = 'EN-US';
-  public showCreditsFlag: boolean = false;
 
   ngOnInit(){
 

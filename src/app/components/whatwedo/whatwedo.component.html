@@ -1,35 +1,34 @@
-<div class="row mt-4 maxwidth mx-auto" id="whatwedo">
-  <div class="col-12 text-center my-3">
-    <h1>{{m.whatwedo}}</h1>
+<app-title-page titlePage="{{gets('whatwedo')}}" id="whatwedo"></app-title-page>
+
+<div class="row mt-4 maxwidth mx-auto descBlock">
+  <div class="col-12 col-sm-5 col-md-6 d-sm-block text-center my-auto px-0">
+    <img src="../../assets/mmits_coding.jpg" alt="{{gets('imgDescTitle1')}} - {{gets('copyrightTitleImageDesc')}}" class="w-100"/>
+  </div>
+  <div class="col-12 col-sm-7 col-md-6 text-center my-auto py-4">
+    <h1 class="text-uppercase">{{gets("title1")}}</h1>
+    <h2>{{gets("descTitle1")}}</h2>
+  </div>
+</div>
+
+<div class="row mt-4 maxwidth mx-auto descBlock">
+  <div class="col-12 col-sm-5 col-md-6 text-center my-auto px-0 d-sm-none">
+    <img src="../../assets/agileteam.svg" alt="{{gets('imgDescTitle2')}} - {{gets('copyrightPostItTitleImageDesc')}}" class="w-100">
+  </div>
+  <div class="col-12 col-sm-7 col-md-6 text-center my-auto py-4">
+    <h1 class="text-uppercase">{{gets("title2")}}</h1>
+    <h2>{{gets("descTitle2")}}</h2>
+  </div>
+  <div class="col-12 col-sm-5 col-md-6 text-center my-auto px-0 d-none d-sm-block">
+    <img src="../../assets/agileteam.svg" alt="{{gets('imgDescTitle2')}} - {{gets('copyrightPostItTitleImageDesc')}}" class="w-100">
   </div>
 </div>
 
 <div class="row mt-4 maxwidth mx-auto descBlock">
   <div class="col-12 col-sm-5 col-md-6 d-sm-block text-center my-auto px-0">
-    <img src="../../assets/mmits_coding.jpg" alt="{{m.imgDescTitle1}} - {{m.copyrightTitleImageDesc}}" class="w-100">
+    <img src="../../assets/stick_notes.jpg" alt="{{gets('imgDescTitle3')}} - {{gets('copyrightPostItTitleImageDesc3')}}" class="w-100">
   </div>
   <div class="col-12 col-sm-7 col-md-6 text-center my-auto py-4">
-    <h1>{{m.title1}}</h1>
-    <h2>{{m.descTitle1}}</h2>
-  </div>
-</div>
-
-<div class="row mt-4 maxwidth mx-auto descBlock">
-  <div class="col-12 col-sm-5 col-md-6 d-sm-block text-center my-auto px-0">
-    <img src="../../assets/stick_notes.jpg" alt="{{m.imgDescTitle2}} - {{m.copyrightPostItTitleImageDesc}}" class="w-100">
-  </div>
-  <div class="col-12 col-sm-7 col-md-6 text-center my-auto py-4">
-    <h1>{{m.title2}}</h1>
-    <h2>{{m.descTitle2}}</h2>
-  </div>
-</div>
-
-<div class="row mt-4 maxwidth mx-auto descBlock">
-  <div class="col-12 col-sm-5 col-md-6 d-sm-block text-center my-auto px-0">
-    <img src="../../assets/logo_mmits.svg" alt="{{m.imgDescTitle3}} - {{m.copyrightPostItTitleImageDesc3}}" class="w-100">
-  </div>
-  <div class="col-12 col-sm-7 col-md-6 text-center my-auto py-4">
-    <h1>{{m.title3}}</h1>
-    <h2>{{m.descTitle3}}</h2>
+    <h1 class="text-uppercase">{{gets("title3")}}</h1>
+    <h2>{{gets("descTitle3")}}</h2>
   </div>
 </div>

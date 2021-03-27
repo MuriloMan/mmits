@@ -1,6 +1,53 @@
-<div class="row mt-4 maxwidth mx-auto" id="about">
-  <div class="col-12 text-center my-3"><h1>{{m.about}}</h1></div>
+<app-title-page titlePage="{{gets('about')}}" id="about"></app-title-page>
+
+<div class="row mt-4 maxwidth mx-auto">
   <div class="col-12 text-center my-auto">
-    <p>{{m.aboutDesc}}</p>
+    <p class="text-about lns-2">{{gets("aboutDesc")}}</p>
+  </div>
+</div>
+<div class="row mt-4 maxwidth mx-auto w-100 w-sm-50">
+  <div class="col-12 col-sm-8 offset-sm-2 text-center my-3">
+
+    <div class="row">
+      <div class="col-12 my-4">
+        <div class="row">
+          <div class="col-12 col-md-4 d-flex">
+            <img src="../../assets/mission.svg" class="w-100 iconmmits my-auto" alt="{{gets('mission')}}">
+          </div>
+          <div class="col-12 col-md-8">
+            <h1 class="title-mmits">{{gets("mission")}}</h1>
+            <h2>
+              {{gets("missionDesc")}}
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 my-4">
+        <div class="row">
+          <div class="col-12 col-md-4 d-flex">
+            <img src="../../assets/vision.svg" class="w-100 iconmmits my-auto" alt="{{gets('mission')}}">
+          </div>
+          <div class="col-12 col-md-8">
+            <h1 class="title-mmits">{{gets('mission')}}</h1>
+        <h2>
+          {{gets("visionDesc")}}
+        </h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 my-4">
+        <div class="row">
+          <div class="col-12 col-md-4 d-flex">
+            <img src="../../assets/value.svg" class="w-100 iconmmits my-auto" alt="{{gets('mission')}}">
+          </div>
+          <div class="col-12 col-md-8">
+            <h1 class="title-mmits">{{gets('values')}}</h1>
+        <h2>
+          {{gets("valuesDesc")}}
+        </h2>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

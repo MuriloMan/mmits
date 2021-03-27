@@ -1,0 +1,219 @@
+{
+    "texts": [
+        {
+            "key": "allRightsReserved",
+            "valuePtBr": "MMITS IT PARTNER - TODOS OS DIREITOS RESERVADOS.",
+            "valueEnUs": "MMITS IT PARTNER - ALL RIGHTS RESERVED."
+        },
+        {
+            "key": "mmits",
+            "valuePtBr": "MMITS",
+            "valueEnUs": "MMITS"
+        },
+        {
+            "key": "contact",
+            "valuePtBr": "Contato",
+            "valueEnUs": "Contact"
+        },
+        {
+            "key": "rpcity",
+            "valuePtBr": "Ribeirão Preto - SP",
+            "valueEnUs": "Ribeirão Preto - SP"
+        },
+        {
+            "key": "tqcity",
+            "valuePtBr": "Taquaritinga - SP",
+            "valueEnUs": "Taquaritinga - SP"
+        },
+        {
+            "key": "toPortuguese",
+            "valuePtBr": "Para Português",
+            "valueEnUs": "To Portuguese"
+        },
+        {
+            "key": "toEnglish",
+            "valuePtBr": "Para Inglês",
+            "valueEnUs": "To English"
+        },
+        {
+            "key": "about",
+            "valuePtBr": "Sobre",
+            "valueEnUs": "About"
+        },
+        {
+            "key": "mmitsItPartner",
+            "valuePtBr": "MMITS - IT PARTNER",
+            "valueEnUs": "MMITS - IT PARTNER"
+        },
+        {
+            "key": "aboutDesc",
+            "valuePtBr": "A MMITS é composta por profissionais que focam diretamente na entrega de valor negocial e tem nas mãos a tecnologia à seu favor. Criada em 2020, atuando em projetos customizados e também como parceiro de TI com foco no desenvolvimento de aplicativos, sites e layouts com análise de UX/UI. A MMITS atende projetos brasileiros e também projetos internacionais.",
+            "valueEnUs": "MMITS is made up by professionals who focus directly on delivering business value and have the technology in their hands. Created in 2020, working on customized projects and also as an IT partner focused on developing applications, websites and layouts with UX / UI analysis. MMITS serves Brazilian projects as well as international projects."
+        },
+        {
+            "key": "home",
+            "valuePtBr": "Início",
+            "valueEnUs": "Home"
+        },
+        {
+            "key": "facebookPageLink",
+            "valuePtBr": "Página Facebook MMITS - IT PARTNER",
+            "valueEnUs": "Facebook page MMITS - IT PARTNER"
+        },
+        {
+            "key": "facebook",
+            "valuePtBr": "Facebook",
+            "valueEnUs": "Facebook"
+        },
+        {
+            "key": "whatsapp",
+            "valuePtBr": "Whatsapp",
+            "valueEnUs": "Whatsapp"
+        },
+        {
+            "key": "facebookSendPhone",
+            "valuePtBr": "Envie uma mensagem agora para MMITS - IT PARTNER no whatsapp",
+            "valueEnUs": "Send MMITS - IT PARTNER a message on whatsapp right now"
+        },
+        {
+            "key": "siteMap",
+            "valuePtBr": "Mapa do Site",
+            "valueEnUs": "Site Map"
+        },
+        {
+            "key": "mmitslogo",
+            "valuePtBr": "O logotipo MMITS foi feito por Murilo Man, onde existem dois M espelhados um no outro dentro de um hexágono representando os símbolos HTML <e> e uma barra no meio que significa uma tag de auto-fechamento. Após o símbolo, o nome MMITS com IT em cor azul, tudo está dentro de uma proporção áurea com borda superior e inferior.",
+            "valueEnUs": "The logo MMITS was made by Murilo Man, which there are two M lying mirrored to another inside a hexagon representing the HTML simbols < and > and a slash in the midle which means a self close tag. After the symbol, the name MMITS with IT in blue collor, everything is inside a golden ratio up and bottom bordered."
+        },
+        {
+            "key": "cnpj",
+            "valuePtBr": "CNPJ: 36.251.403/0001-22",
+            "valueEnUs": "CNPJ: 36.251.403/0001-22"
+        },
+        {
+            "key": "imgDescTitle1",
+            "valuePtBr": "Um homem desenvolvendo código no notebook.",
+            "valueEnUs": "A man developing code on notebook."
+        },
+        {
+            "key": "imgDescTitle2",
+            "valuePtBr": "Uma mesa com postit ou notas adesivas representando uma organização de ideas ou trabalho.",
+            "valueEnUs": "A desk with post it or stick notes representing a organization of ideas or work."
+        },
+        {
+            "key": "adsdaasdasds",
+            "valuePtBr": "Foto de Viktor Hanacek do site picjumbo.",
+            "valueEnUs": "Foto de Viktor Hanacek do site picjumbo."
+        },
+        {
+            "key": "credits",
+            "valuePtBr": "Créditos",
+            "valueEnUs": "Credits"
+        },
+        {
+            "key": "iconMageBy",
+            "valuePtBr": "Ícones feitos por",
+            "valueEnUs": "Icons made by"
+        },
+        {
+            "key": "copyrightTitleImageDesc",
+            "valuePtBr": "Foto de Lukas do site Pexels.",
+            "valueEnUs": "Photo by Lukas from Pexels."
+        },
+        {
+            "key": "socialNetworks",
+            "valuePtBr": "Redes Sociais",
+            "valueEnUs": "Social Networks"
+        },
+        {
+            "key": "title1",
+            "valuePtBr": "Desenvolvedores e Especialistas de UX",
+            "valueEnUs": "Developers and UX Specialists"
+        },
+        {
+            "key": "descTitle1",
+            "valuePtBr": "Nós trazemos o processo de desenvolvimento mais perto de você. Reuniões diárias são importantes para melhores decisões, nosso foco é a entrega contínua e velocidade de adaptação.",
+            "valueEnUs": "We bring the development process closer to you. Daily meetings are important for better decisions, our focus is continuous delivery and fast adaptation."
+        },
+        {
+            "key": "title2",
+            "valuePtBr": "Time Ágil",
+            "valueEnUs": "Agile Team"
+        },
+        {
+            "key": "descTitle2",
+            "valuePtBr": "Seguimos uma metodologia ágil para trazer grandes resultados para seus objetivos. Todo desenvolvimento é sempre com foco de entrega de valor negocial.",
+            "valueEnUs": "We follow an agile methodology to bring great results to your goals. The entire development is always with a focus on delivering business value. "
+        },
+        {
+            "key": "title3",
+            "valuePtBr": "Nosso foco",
+            "valueEnUs": "Our focus"
+        },
+        {
+            "key": "descTitle3",
+            "valuePtBr": "Nós desenvolvemos aplicações sempre pensando na experiência do usuário e também no valor negocial, utilizando técnicas e estudos de heurísticas para melhorar a interação do usuário.",
+            "valueEnUs": "We develop applications always thinking about the user experience and also the business value, using techniques and studies of heuristics to improve user interaction."
+        },
+        {
+            "key": "whatwedo",
+            "valuePtBr": "O que fazemos",
+            "valueEnUs": "What we do"
+        },
+        {
+            "key": "whoweare",
+            "valuePtBr": "Quem somos",
+            "valueEnUs": "Who we are"
+        },
+        {
+            "key": "murilosname",
+            "valuePtBr": "Murilo Manzoli de Souza",
+            "valueEnUs": "Murilo Manzoli de Souza"
+        },
+        {
+            "key": "phone",
+            "valuePtBr": "Número",
+            "valueEnUs": "Phone"
+        },
+        {
+            "key": "email",
+            "valuePtBr": "Email",
+            "valueEnUs": "Email"
+        },
+        {
+            "key": "murilosdesc",
+            "valuePtBr": "CEO | Analista e Desenvolvedor, também trabalha com UX.",
+            "valueEnUs": "CEO | Analyst and Software Developer, also works with UX."
+        },
+        {
+            "key": "vision",
+            "valuePtBr": "Visão",
+            "valueEnUs": "Vision"
+        },
+        {
+            "key": "visionDesc",
+            "valuePtBr": "Ser referência de empresa por desenvolver e melhorar a experiência do usuário com soluções inovadoras e também pela qualidade do serviço prestado, com profissionais extremamente capacitados na área.",
+            "valueEnUs": "To be a company reference for developing and improving the user experience with innovative solutions and also for the quality of the service provided, with highly trained professionals in the area. "
+        },
+        {
+            "key": "mission",
+            "valuePtBr": "Missão",
+            "valueEnUs": "Mission"
+        },
+        {
+            "key": "missionDesc",
+            "valuePtBr": "Executar entregas ágeis, desenvolvimento baseados em análise de UI/UX, guiados por comunicação efetiva com o cliente para entregas com foco na qualidade e que agreguem muito valor.",
+            "valueEnUs": "Execute agile deliveries, development based on UI / UX analysis, guided by effective communication with the customer for deliveries focused on quality and that add a lot of value. "
+        },
+        {
+            "key": "values",
+            "valuePtBr": "Valores",
+            "valueEnUs": "Values"
+        },
+        {
+            "key": "valuesDesc",
+            "valuePtBr": "Temos comprometimento com nossas entregas.\n Persistência em encontrar soluções apropriadas.\n Buscamos inovações em desenvolver soluções.",
+            "valueEnUs": "We are committed to our deliveries. \n Persistence in finding appropriated solutions. \n We seek innovations in developing solutions."
+        }
+    ]
+}

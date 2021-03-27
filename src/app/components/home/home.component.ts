@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { MessageService } from 'src/app/services/message.service';
+import { MessageService } from 'src/app/services/message/message.service';
 
 @Component({
   selector: 'app-home',
@@ -8,10 +8,6 @@ import { MessageService } from 'src/app/services/message.service';
 })
 export class HomeComponent implements OnInit {
 
-  @Input() lang: string;
-  @Input() showCreditsFlag: boolean;
-  public m: any;
-
   constructor(public messages: MessageService) { }
 
   ngOnInit(): void {
@@ -19,6 +15,9 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnChanges(): void{
-    this.m = this.messages.getTexts(this.lang);
+  }
+
+  gets(s:string):string{
+    return this.messages.gets(s);
   }
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { MessageService} from '../../services/message.service';
+import { MessageService} from '../../services/message/message.service';
 import { environment } from 'src/environments/environment';
 
 @Component({
@@ -9,12 +9,8 @@ import { environment } from 'src/environments/environment';
 })
 export class FooterComponent implements OnInit {
 
-  @Input() lang: string;
-  @Input() showCreditsFlag: boolean;
-  @Output() showCreditsFlagChange = new EventEmitter<boolean>();
-
   constructor(public messages: MessageService) { }
-
+  public showcredits: boolean = false;
   public year: number = 0;
   public vn: string;
   public m: any;
@@ -26,12 +22,13 @@ export class FooterComponent implements OnInit {
   }
 
   ngOnChanges(): void{
-    this.m = this.messages.getTexts(this.lang);
   }
 
+  gets(s:string):string{
+    return this.messages.gets(s);
+  }
 
-  showCredits(): void {
-    this.showCreditsFlag = !this.showCreditsFlag;
-    this.showCreditsFlagChange.emit(this.showCreditsFlag);
+  public showcred():void{
+    this.showcredits = !this.showcredits;
   }
 }

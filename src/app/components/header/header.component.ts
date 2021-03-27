@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { MessageService } from 'src/app/services/message.service';
+import { MessageService } from 'src/app/services/message/message.service';
 import { StorageService } from 'src/app/services/storage/storage.service';
 
 @Component({
@@ -9,9 +9,6 @@ import { StorageService } from 'src/app/services/storage/storage.service';
 })
 export class HeaderComponent implements OnInit {
 
-  @Input() lang: string;
-  @Input() showCreditsFlag: boolean;
-  @Output() showCreditsFlagChange = new EventEmitter<boolean>();
   @Output() langChange = new EventEmitter<string>();
 
   constructor(public messages: MessageService, public storage: StorageService) { }
@@ -25,37 +22,27 @@ export class HeaderComponent implements OnInit {
   }
 
   getLocalStorage() {
-    debugger;
     this.flag = this.storage.get("langFlag");
-    this.languageIndex = this.flag == 'usflag' ? 0 : 1;
+    this.languageIndex = this.flag == null ? 0 : this.flag == 'usflag' ? 0 : 1;
     this.refreshLang();
   }
 
-  showCredits(): void {
-    this.showCreditsFlag = !this.showCreditsFlag;
-    this.showCreditsFlagChange.emit(this.showCreditsFlag);
+  ngOnChanges(): void {
   }
 
-  ngOnChanges(): void {
-    this.m = this.messages.getTexts(this.lang);
+  gets(s:string):string{
+    return this.messages.gets(s);
   }
 
   refreshLang(): void {
     this.flag = this.flag == null || '' == this.flag ? 'usflag' : this.flag;
-    if (this.flag == 'brflag') {
-      this.lang = 'PT-BR';
-    }
-    else {
-      this.lang = 'EN-US';
-    }
-    this.langChange.emit(this.lang);
   }
 
-  public toNextLanguage(): void {
-    this.languageIndex = this.languageIndex === 1 ? 0 : 1;
-    if (this.languageIndex === 1) {
+  toNextLanguage(): void {
+    this.languageIndex = this.languageIndex == 1 ? 0 : 1;
+    if (this.languageIndex == 1) {
       this.flag = 'brflag';
-    } else if (this.languageIndex === 0) {
+    } else if (this.languageIndex == 0) {
       this.flag = 'usflag';
     }
     this.refreshLang();

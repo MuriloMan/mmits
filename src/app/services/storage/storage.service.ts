@@ -4,16 +4,20 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class StorageService {
-
+  
   constructor() { }
-
-
-  get(id: string): string {
-    let item = sessionStorage.getItem(id);
+  
+  
+  public get(id: string): string {
+    let item = localStorage.getItem(id);
     return item;
   }
+  
+  public set(id: string, value: string): void {
+    localStorage.setItem(id, value);
+  }
 
-  set(id: string, value: string): void {
-    sessionStorage.setItem(id, value);
+  public removeItem(id: string):void {
+    localStorage.removeItem(id);
   }
 }

@@ -1,11 +1,17 @@
-@mixin fontccx($n, $f) {
+@mixin fontccx($n,$fw, $f) {
   @font-face {
     font-family: $n;
+    font-style: normal;
+    font-weight: $fw;
     src: url("/assets/font/#{$f}.eot");
     src: url("/assets/font/#{$f}.eot?#iefix") format("embedded-opentype"),
       url("/assets/font/#{$f}.woff2") format("woff2"),
       url("/assets/font/#{$f}.woff") format("woff"),
       url("/assets/font/#{$f}.ttf") format("truetype"),
-      url("/assets/font/#{$f}.svg#svgFontName") format("svg");
+      url("/assets/font/#{$f}.svg##{n}") format("svg");
   }
 }
+
+@include fontccx("Assistant",200,"assistant-v7-latin-200");
+@include fontccx("Assistant",300,"assistant-v7-latin-300");
+@include fontccx("Assistant","regular","assistant-v7-latin-300");

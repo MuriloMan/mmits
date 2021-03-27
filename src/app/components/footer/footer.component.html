@@ -1,23 +1,47 @@
-<div class="row bg-black maxwidth mx-auto">
+<app-credits [showcredits]="showcredits"></app-credits>
+<div class="row bg-black maxwidth mx-auto mt-4">
   <div class="col-12 col-sm-6 col-md-4 pt-3 text-center">
-    <h3 class="font-weight-bold text-uppercase">{{m.mmitsItPartner}}</h3>
-    <p class="my-0 text-uppercase">{{m.rpcity}}</p>
-    <p class="my-0 text-uppercase">{{m.cnpj}}</p>
+    <h3 class="font-weight-bold text-uppercase">
+      {{gets("mmitsItPartner")}}
+    </h3>
+    <p class="my-0 text-uppercase">
+      {{gets("rpcity")}} <br/>
+      {{gets("tqcity")}}
+    </p>
+    <p class="my-0 text-uppercase">
+      {{gets("cnpj")}}
+    </p>
   </div>
   <div class="col-12 col-sm-6 col-md-4 pt-3 text-center">
-    <h3 class="font-weight-bold text-uppercase">{{m.siteMap}}</h3>
-    <a class="nav-link p-0 text-uppercase" href="#" routerLink="/">{{m.home}} <span class="sr-only">(current)</span></a>
-    <a class="nav-link p-0 text-uppercase" href="#about">{{m.about}}</a>
-    <a class="nav-link p-0 text-uppercase" href="#whatwedo">{{m.whatwedo}}</a>
-    <a class="nav-link p-0 text-uppercase" href="#whoweare">{{m.whoweare}}</a>
-    <a class="nav-link p-0 text-uppercase" href="#" (click)="showCredits()">{{m.credits}}</a>
-    <a class="nav-link p-0 text-uppercase" href="#contact">{{m.contact}}</a>
+    <h3 class="font-weight-bold text-uppercase">
+      {{gets("siteMap")}}
+    </h3>
+    <a class="nav-link p-0 text-uppercase hme" href="#" routerLink="/">
+      {{gets("home")}}
+      <span class="sr-only">
+        (current)
+      </span>
+    </a>
+    <a class="nav-link p-0 text-uppercase hme" href="#about">
+      {{gets("about")}}
+    </a>
+    <a class="nav-link p-0 text-uppercase hme" href="#whatwedo">
+      {{gets("whatwedo")}}
+    </a>
+    <a class="nav-link p-0 text-uppercase hme" href="#contact">
+      {{gets("contact")}}
+    </a>
+    <a class="nav-link p-0 text-uppercase hme" href="#credits" (click)="showcred()">
+      {{gets("credits")}}
+    </a>
   </div>
   <div class="col-12 col-sm-12 col-md-4 pt-3 text-center">
-    <h3 class="font-weight text-uppercase">{{m.socialNetworks}}</h3>
-    <div class="row">
-      <div class="col-12 col-sm-6 offset-sm-3 col-md-12 offset-md-0 col-lg-8 offset-lg-2">
-        <div class="row">
+    <h3 class="font-weight-bold text-uppercase">
+      {{gets("socialNetworks")}}
+    </h3>
+    <div class="row h-100">
+      <div class="col-12 col-sm-6 offset-sm-3 col-md-12 offset-md-0 col-lg-8 offset-lg-2 d-flex h-100">
+        <div class="row my-auto mx-auto">
           <div class="col-12 col-sm-6 text-center">
             <a class="nav-link p-0" href="https://www.facebook.com/MMITSITPARTNER/" class="alinkf" target="_blank">
               <svg xmlns="http://www.w3.org/2000/svg" class="d-inline-block align-top link-footer facebookLink"
@@ -30,7 +54,8 @@
             </a>
           </div>
           <div class="col-12 col-sm-6 text-center">
-            <a class="nav-link p-0" href="https://api.WhatsApp.com/send?phone=5511933849110" class="alinkf" target="_blank">
+            <a class="nav-link p-0" href="https://api.WhatsApp.com/send?phone=5511933849110" class="alinkf"
+              target="_blank">
               <svg xmlns="http://www.w3.org/2000/svg" class="d-inline-block align-top link-footer whatsappLink"
                 viewBox="0 0 16 16">
                 <path
@@ -44,5 +69,7 @@
       </div>
     </div>
   </div>
-  <div class="col-12 text-center mt-2 btc">{{year}} {{m.allRightsReserved}} - v{{vn}}</div>
+  <div class="col-12 text-center mt-4 btc">
+    {{year}} {{gets("allRightsReserved")}} - v{{vn}}
+  </div>
 </div>

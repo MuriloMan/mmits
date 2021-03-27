@@ -14,6 +14,7 @@ import { WhoweareComponent } from './components/whoweare/whoweare.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FirstlookComponent } from './components/firstlook/firstlook.component';
 import { CreditsComponent } from './components/credits/credits.component';
+import { TitlePageComponent } from './components/title-page/title-page.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { CreditsComponent } from './components/credits/credits.component';
     WhoweareComponent,
     ContactComponent,
     FirstlookComponent,
-    CreditsComponent
+    CreditsComponent,
+    TitlePageComponent
   ],
   imports: [
     BrowserModule,

@@ -1,18 +1,15 @@
-<div class="row mt-4 maxwidth mx-auto" id="credits">
-  <div class="col-12 text-center my-3">
-    <h1>{{m.credits}}</h1>
-  </div>
-</div>
-<div class="row">
-  <div class="col-12 pt-3 text-center">
+<ng-container *ngIf="showcredits">
 
-    <img src="../../assets/brflag.svg" class="ic-credit" loading="lazy">
-    {{m.iconMageBy}} <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik">Freepik</a>
-    <a href="https://www.flaticon.com/br/" title="Flaticon"> www.flaticon.com</a>
-    <br />
-    <img src="../../assets/usflag.svg" class="ic-credit" loading="lazy">
-    {{m.iconMageBy}} <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik">Freepik</a>
-    <a href="https://www.flaticon.com/br/" title="Flaticon"> www.flaticon.com</a>
+  <app-title-page titlePage="{{gets('credits')}}" id="credits"></app-title-page>
+  <div class="row">
+    <div class="col-12 pt-3 text-center">
 
+      {{gets("iconMageBy")}} 
+      <br/>
+      <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik">Freepik</a>
+      <br/>
+      <a href="http://www.freepik.com">Designed by katemangostar / Freepik</a>
+    </div>
   </div>
-</div>
+
+</ng-container>
