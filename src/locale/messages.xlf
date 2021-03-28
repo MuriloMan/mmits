@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="aboutMMitsDesc" datatype="html">
+        <source>
+      MMITS is made up by professionals who focus directly on delivering business value and have the technology in their
+      hands. Created in 2020, working on customized projects and also as an IT partner focused on developing
+      applications, websites and layouts with UX / UI analysis. MMITS serves Brazilian projects as well as international
+      projects.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">About mmits description</note>
+      </trans-unit>
+      <trans-unit id="fd8fea6883aa5d60999b1ab27276b128d51441fa" datatype="html">
+        <source>Mission</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mission" datatype="html">
+        <source>MISSION</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <note priority="1" from="description">Mission from company attribs</note>
+      </trans-unit>
+      <trans-unit id="missionDesc" datatype="html">
+        <source>
+              Execute agile deliveries, development based on UI / UX analysis, guided by effective communication with
+              the customer for deliveries focused on quality and that add a lot of value.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <note priority="1" from="description">Mission desc from company attribs</note>
+      </trans-unit>
+      <trans-unit id="06f9ad183eac8dc94e393c4fb5bc9905d8f45148" datatype="html">
+        <source>Vision</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="vision" datatype="html">
+        <source>VISION</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <note priority="1" from="description">Vision from company attribs</note>
+      </trans-unit>
+      <trans-unit id="visionDesc" datatype="html">
+        <source>
+              To be a company reference for developing and improving the user experience with innovative solutions and
+              also for the quality of the service provided, with highly trained professionals in the area.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <note priority="1" from="description">Vision desc from company attribs</note>
+      </trans-unit>
+      <trans-unit id="809b0c848932a41318f77a2aace904ef429c13f4" datatype="html">
+        <source>Values</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="values" datatype="html">
+        <source>VALUES</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <note priority="1" from="description">Values from company attribs</note>
+      </trans-unit>
+      <trans-unit id="valuesDesc" datatype="html">
+        <source>
+              We are committed to our deliveries. \n Persistence in finding appropriated solutions. \n We seek
+              innovations in developing solutions.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <note priority="1" from="description">Values desc from company attribs</note>
+      </trans-unit>
+      <trans-unit id="436c741d39118ba398e31079f6045bacafc9f0e8" datatype="html">
+        <source>The logo MMITS was made by Murilo Man, which there are two M lying mirrored to another inside a hexagon representing the HTML simbols &lt; and &gt; and a slash in the midle which means a self close tag. After the symbol, the name MMITS with IT in blue collor, everything is inside a golden ratio up and bottom bordered.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home" datatype="html">
+        <source>Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <note priority="1" from="description">home superior menu</note>
+      </trans-unit>
+      <trans-unit id="about" datatype="html">
+        <source>About</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <note priority="1" from="description">about superior menu</note>
+      </trans-unit>
+      <trans-unit id="whatwedo" datatype="html">
+        <source>What we do</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description">whatwedo superior menu</note>
+      </trans-unit>
+      <trans-unit id="contact" datatype="html">
+        <source>Contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <note priority="1" from="description">contact superior menu</note>
+      </trans-unit>
+      <trans-unit id="mmitsitpartner" datatype="html">
+        <source>
+      MMITS - IT PARTNER
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/firstlook/firstlook.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/firstlook/firstlook.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">MMITS - IT PARTNER NAME</note>
+      </trans-unit>
+      <trans-unit id="ribeiraopreto" datatype="html">
+        <source>Ribeirão Preto - SP</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">Ribeirao preto city</note>
+      </trans-unit>
+      <trans-unit id="taquaritinga" datatype="html">
+        <source>Taquaritinga - SP</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">Taquaritinga city</note>
+      </trans-unit>
+      <trans-unit id="cnpj" datatype="html">
+        <source>CNPJ: 36.251.403/0001-22</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">CNPJ</note>
+      </trans-unit>
+      <trans-unit id="sitemap" datatype="html">
+        <source>Site Map</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <note priority="1" from="description">Site map from footer</note>
+      </trans-unit>
+      <trans-unit id="credits" datatype="html">
+        <source>Credits</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <note priority="1" from="description">Credits from footer</note>
+      </trans-unit>
+      <trans-unit id="socialnetworks" datatype="html">
+        <source>Social Networks</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <note priority="1" from="description">Social Networks from footer</note>
+      </trans-unit>
+      <trans-unit id="mmitsallrightreserved" datatype="html">
+        <source>MMITS IT PARTNER - ALL RIGHTS RESERVED.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+        <note priority="1" from="description">All rights reserved MMITS</note>
+      </trans-unit>
+      <trans-unit id="2df2ee59fb2f6aed2ac2a64a4fa641b37ef98ba0" datatype="html">
+        <source>A man developing code on notebook.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/whatwedo/whatwedo.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="developersuxspecialists" datatype="html">
+        <source>
+      Developers and UX Specialists
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/whatwedo/whatwedo.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">Developers and UX Specialists title</note>
+      </trans-unit>
+      <trans-unit id="developersuxspecialistsDesc" datatype="html">
+        <source>
+      We bring the development process closer to you. Daily meetings are important for better decisions, our focus is
+      continuous delivery and fast adaptation.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/whatwedo/whatwedo.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">Developers and UX Specialists desc</note>
+      </trans-unit>
+      <trans-unit id="1a8b50b69b43cc7ed8b3e61a27d114a1dd71de67" datatype="html">
+        <source>A desk with post it or stick notes representing a organization of ideas or work.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/whatwedo/whatwedo.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/whatwedo/whatwedo.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="agileTeam" datatype="html">
+        <source>Agile Team</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/whatwedo/whatwedo.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <note priority="1" from="description">Agile Team title</note>
+      </trans-unit>
+      <trans-unit id="agileTeamDesc" datatype="html">
+        <source>
+      We follow an agile methodology to bring great results to your goals. The entire development is always with a focus
+      on delivering business value.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/whatwedo/whatwedo.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description">Agile team desc</note>
+      </trans-unit>
+      <trans-unit id="e35e457f3714b1622aadbf2c1df72354808bc519" datatype="html">
+        <source>Prototype layouts drawn on stick notes.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/whatwedo/whatwedo.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ourFocus" datatype="html">
+        <source>Our focus</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/whatwedo/whatwedo.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <note priority="1" from="description">Our Focus title</note>
+      </trans-unit>
+      <trans-unit id="ourFocusDesc" datatype="html">
+        <source>
+      We develop applications always thinking about the user experience and also the business value, using techniques
+      and studies of heuristics to improve user interaction.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/whatwedo/whatwedo.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <note priority="1" from="description">Our Focus desc</note>
+      </trans-unit>
+      <trans-unit id="email" datatype="html">
+        <source>
+          Email:
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact/contact.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">email from contact</note>
+      </trans-unit>
+      <trans-unit id="phone" datatype="html">
+        <source>Phone:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact/contact.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <note priority="1" from="description">Phone from contact</note>
+      </trans-unit>
+      <trans-unit id="facebook" datatype="html">
+        <source>facebook:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact/contact.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <note priority="1" from="description">Facebook from contact</note>
+      </trans-unit>
+      <trans-unit id="whatsapp" datatype="html">
+        <source>Whatsapp:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact/contact.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <note priority="1" from="description">Whatsapp from contact</note>
+      </trans-unit>
+      <trans-unit id="26178467416eeaaea8c520886d5b9355d94286b3" datatype="html">
+        <source>MMITS LOGO</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/firstlook/firstlook.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mmitsattrb1" datatype="html">
+        <source>IT Consulting</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/firstlook/firstlook.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">MMITS - atribute 1</note>
+      </trans-unit>
+      <trans-unit id="mmitsattrb2" datatype="html">
+        <source>UI/UX Specialists</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/firstlook/firstlook.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">MMITS - atribute 2</note>
+      </trans-unit>
+      <trans-unit id="mmitsattrb3" datatype="html">
+        <source>Responsible designs</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/firstlook/firstlook.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description">MMITS - atribute 3</note>
+      </trans-unit>
+      <trans-unit id="mmitsattrb4" datatype="html">
+        <source>Usability / Accessability tests</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/firstlook/firstlook.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">MMITS - atribute 4</note>
+      </trans-unit>
+      <trans-unit id="mmitsattrb5" datatype="html">
+        <source>Mobile Apps and Web Solutions</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/firstlook/firstlook.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">MMITS - atribute 5</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

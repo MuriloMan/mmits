@@ -4,6 +4,13 @@
   "newProjectRoot": "projects",
   "projects": {
     "mmits-site": {
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "pt": "src/locale/messages.pt.xlf",
+          "en": "src/locale/messages.xlf"
+        }
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,6 +24,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize": true,
             "outputPath": "dist/mmits-site",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -42,6 +50,12 @@
             }
           },
           "configurations": {
+            "pt": {
+              "localize": [
+                "pt"
+              ],
+              "main": "src/main.pr.ts"
+            },
             "production": {
               "fileReplacements": [
                 {
@@ -78,6 +92,9 @@
             "browserTarget": "mmits-site:build"
           },
           "configurations": {
+            "pt": {
+              "browserTarget": "mmits-site:build:pt"
+            },
             "production": {
               "browserTarget": "mmits-site:build:production"
             }
@@ -141,6 +158,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "mmits-site"
+    }
+  },
+  "defaultProject": "mmits-site",
+  "cli": {
+    "analytics": "c011aa26-ef0f-49a3-b8f2-aaee78db5631"
+  }
 }

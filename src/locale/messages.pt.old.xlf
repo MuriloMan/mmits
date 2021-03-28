@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="pt-BR" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="ngb.alert.close" datatype="html">
+        <source>Fechar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/alert/alert.d.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.previous" datatype="html">
+        <source>Anterior</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/carousel/carousel.d.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.next" datatype="html">
+        <source>Próximo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/carousel/carousel.d.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
+        <source>Previous month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.next-month" datatype="html">
+        <source>Next month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-month" datatype="html">
+        <source>Select month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation-select.d.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation-select.d.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-year" datatype="html">
+        <source>Select year</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation-select.d.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation-select.d.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first" datatype="html">
+        <source>««</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous" datatype="html">
+        <source>«</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next" datatype="html">
+        <source>»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last" datatype="html">
+        <source>»»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first-aria" datatype="html">
+        <source>First</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous-aria" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next-aria" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last-aria" datatype="html">
+        <source>Last</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.progressbar.value" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{getValue() / max | percent}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/progressbar/progressbar.d.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
+        <source>Increment hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.HH" datatype="html">
+        <source>HH</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.hours" datatype="html">
+        <source>Hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
+        <source>Decrement hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
+        <source>Increment minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.MM" datatype="html">
+        <source>MM</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.minutes" datatype="html">
+        <source>Minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
+        <source>Decrement minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
+        <source>Increment seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.SS" datatype="html">
+        <source>SS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.seconds" datatype="html">
+        <source>Seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
+        <source>Decrement seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.PM" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ i18n.getAfternoonPeriod() }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.AM" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ i18n.getMorningPeriod() }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.toast.close-aria" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/toast/toast.d.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ef575ce3f964b42333a99c22f373b8d469896c88" datatype="html">
+        <source>
+      A MMITS é composta por profissionais que focam diretamente na entrega de valor negocial e tem nas mãos a tecnologia à seu favor. Criada em 2020, atuando em projetos customizados e também como parceiro de TI com foco no desenvolvimento de aplicativos, sites e layouts com análise de UX/UI. A MMITS atende projetos brasileiros e também projetos internacionais.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">About mmits description</note>
+      </trans-unit>
+      <trans-unit id="fd8fea6883aa5d60999b1ab27276b128d51441fa" datatype="html">
+        <source>Missão</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dc920890e17e1d246b1aa60f8bd2da29f364bac9" datatype="html">
+        <source>MISSÃO</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <note priority="1" from="description">Mission from company attribs</note>
+      </trans-unit>
+      <trans-unit id="83d3fb944b57f1208ffe4840baaa7ebc9bfc58a7" datatype="html">
+        <source>
+              Executar entregas ágeis, desenvolvimento baseados em análise de UI/UX, guiados por comunicação efetiva com o cliente para entregas com foco na qualidade e que agreguem muito valor.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <note priority="1" from="description">Mission desc from company attribs</note>
+      </trans-unit>
+      <trans-unit id="06f9ad183eac8dc94e393c4fb5bc9905d8f45148" datatype="html">
+        <source>Visão</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="40eaef0735ff8399147e24b58221f982dd65e21c" datatype="html">
+        <source>VISION</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <note priority="1" from="description">Vision from company attribs</note>
+      </trans-unit>
+      <trans-unit id="fb7de796c4b45589390c360709be40444a3ddf77" datatype="html">
+        <source>
+              Ser referência de empresa por desenvolver e melhorar a experiência do usuário com soluções inovadoras e também pela qualidade do serviço prestado, com profissionais extremamente capacitados na área.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <note priority="1" from="description">Vision desc from company attribs</note>
+      </trans-unit>
+      <trans-unit id="809b0c848932a41318f77a2aace904ef429c13f4" datatype="html">
+        <source>Valores</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="19f15a59b28986abf150fd4de0d24d2049a87638" datatype="html">
+        <source>VALUES</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <note priority="1" from="description">Values from company attribs</note>
+      </trans-unit>
+      <trans-unit id="69dcd3b69cfb73fb1ac45ba35d09f5777e1fa00f" datatype="html">
+        <source>
+              Temos comprometimento com nossas entregas.\n Persistência em encontrar soluções apropriadas.\n Buscamos inovações em desenvolver soluções.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <note priority="1" from="description">Values desc from company attribs</note>
+      </trans-unit>
+      <trans-unit id="436c741d39118ba398e31079f6045bacafc9f0e8" datatype="html">
+        <source>O logotipo MMITS foi feito por Murilo Man, onde existem dois M espelhados um no outro dentro de um hexágono representando os símbolos HTML <e> e uma barra no meio que significa uma tag de auto-fechamento. Após o símbolo, o nome MMITS com IT em cor azul, tudo está dentro de uma proporção áurea com borda superior e inferior.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="92eee6be6de0b11c924e3ab27db30257159c0a7c" datatype="html">
+        <source>Início</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <note priority="1" from="description">home superior menu</note>
+      </trans-unit>
+      <trans-unit id="004b222ff9ef9dd4771b777950ca1d0e4cd4348a" datatype="html">
+        <source>Sobre</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <note priority="1" from="description">about superior menu</note>
+      </trans-unit>
+      <trans-unit id="07d02574be30617015d6855cade45c82aa5e27c1" datatype="html">
+        <source>O que fazemos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description">whatwedo superior menu</note>
+      </trans-unit>
+      <trans-unit id="34746fb1c7f3d2194d99652bdff89e6e14c9c4f4" datatype="html">
+        <source>Contato</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <note priority="1" from="description">contact superior menu</note>
+      </trans-unit>
+      <trans-unit id="58653a16f7a6e6aefd5dfa5752fb2864edc92147" datatype="html">
+        <source>
+      MMITS - IT PARTNER
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">MMITS - IT PARTNER NAME</note>
+      </trans-unit>
+      <trans-unit id="eeb0e829dbfee61f348c2cbf7bbda9084788ca82" datatype="html">
+        <source>Ribeirão Preto - SP</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">Ribeirao preto city</note>
+      </trans-unit>
+      <trans-unit id="5adc178c41ed131721cb4a4a31c8654f9ab5286a" datatype="html">
+        <source>Taquaritinga - SP</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">Taquaritinga city</note>
+      </trans-unit>
+      <trans-unit id="4c94167c4d469ca45930fcc138a0cbc42f9ea82c" datatype="html">
+        <source>CNPJ: 36.251.403/0001-22</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">CNPJ</note>
+      </trans-unit>
+      <trans-unit id="7208fae02eb5168ff6395bd0fce5b8f20a0b52c9" datatype="html">
+        <source>Mapa do Site</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <note priority="1" from="description">Site map from footer</note>
+      </trans-unit>
+      <trans-unit id="2d24d1eb8d295534d8669dbeaf56201c141285af" datatype="html">
+        <source>Créditos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <note priority="1" from="description">Credits from footer</note>
+      </trans-unit>
+      <trans-unit id="50cc55028163151c27e875225891df7b4af3a24c" datatype="html">
+        <source>Redes Sociais</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <note priority="1" from="description">Social Networks from footer</note>
+      </trans-unit>
+      <trans-unit id="f95a482f610d7e6126cd516a10231ed767f5bfc2" datatype="html">
+        <source>MMITS IT PARTNER - TODOS OS DIREITOS RESERVADOS.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+        <note priority="1" from="description">All rights reserved MMITS</note>
+      </trans-unit>
+      <trans-unit id="2df2ee59fb2f6aed2ac2a64a4fa641b37ef98ba0" datatype="html">
+        <source>Um homem desenvolvendo código no notebook.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/whatwedo/whatwedo.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f1ba78d81beefaba4b309c37f48ef9378995f0e0" datatype="html">
+        <source>
+      Desenvolvedores e Especialistas de UX
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/whatwedo/whatwedo.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">Developers and UX Specialists title</note>
+      </trans-unit>
+      <trans-unit id="84f2a4904955399471370506e8c7a68c822bb130" datatype="html">
+        <source>
+      Nós trazemos o processo de desenvolvimento mais perto de você. Reuniões diárias são importantes para melhores decisões, nosso foco é a entrega contínua e velocidade de adaptação.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/whatwedo/whatwedo.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">Developers and UX Specialists desc</note>
+      </trans-unit>
+      <trans-unit id="1a8b50b69b43cc7ed8b3e61a27d114a1dd71de67" datatype="html">
+        <source>Uma mesa com postit ou notas adesivas representando uma organização de ideas ou trabalho.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/whatwedo/whatwedo.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/whatwedo/whatwedo.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4bcae8c3746cd8e0947b2fe6ce79750c3e3deeb6" datatype="html">
+        <source>Time Ágil</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/whatwedo/whatwedo.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <note priority="1" from="description">Agile Team title</note>
+      </trans-unit>
+      <trans-unit id="36866b254bf89af43d649e42411b8ed1645399c3" datatype="html">
+        <source>
+      Seguimos uma metodologia ágil para trazer grandes resultados para seus objetivos. Todo desenvolvimento é sempre com foco de entrega de valor negocial.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/whatwedo/whatwedo.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description">Agile team desc</note>
+      </trans-unit>
+      <trans-unit id="e35e457f3714b1622aadbf2c1df72354808bc519" datatype="html">
+        <source>Prototype layouts drawn on stick notes.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/whatwedo/whatwedo.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="76e73efd86bb29cda562b1edf20dddf742279821" datatype="html">
+        <source>Nosso foco</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/whatwedo/whatwedo.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <note priority="1" from="description">Our Focus title</note>
+      </trans-unit>
+      <trans-unit id="7fb162d0b505cd8a0841445fbe48134109f0f220" datatype="html">
+        <source>
+      Nós desenvolvemos aplicações sempre pensando na experiência do usuário e também no valor negocial, utilizando técnicas e estudos de heurísticas para melhorar a interação do usuário.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/whatwedo/whatwedo.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <note priority="1" from="description">Our Focus desc</note>
+      </trans-unit>
+      <trans-unit id="8eb43205831d55245dfc46ec4a9008b51c5711bc" datatype="html">
+        <source>
+          Email:
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact/contact.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">email from contact</note>
+      </trans-unit>
+      <trans-unit id="3a56771d1062b04a2b362d5ed1da622659afae7b" datatype="html">
+        <source>Número:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact/contact.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <note priority="1" from="description">Phone from contact</note>
+      </trans-unit>
+      <trans-unit id="4236cf88b9e48a8d3ea621434dcc524c70221a00" datatype="html">
+        <source>facebook:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact/contact.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <note priority="1" from="description">Facebook from contact</note>
+      </trans-unit>
+      <trans-unit id="1a2adfac0aab8574623357dfa74526063046c4c0" datatype="html">
+        <source>Whatsapp:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact/contact.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <note priority="1" from="description">Whatsapp from contact</note>
+      </trans-unit>
+      <trans-unit id="26178467416eeaaea8c520886d5b9355d94286b3" datatype="html">
+        <source>MMITS LOGO</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/firstlook/firstlook.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b10694ac753e79f47c8a85b9e3fdb1f592c258c0" datatype="html">
+        <source>MMITS - IT PARTNER</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/firstlook/firstlook.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/firstlook/firstlook.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">MMITS - IT PARTNER NAME</note>
+      </trans-unit>
+      <trans-unit id="3eda08f2bf5350692959dce32549c7293494e798" datatype="html">
+        <source>Consultoria em TI</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/firstlook/firstlook.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">MMITS - atribute 1</note>
+      </trans-unit>
+      <trans-unit id="5c6449241dd5dd1d23d223c1144727c67a284adf" datatype="html">
+        <source>Especialistas UI/UX</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/firstlook/firstlook.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">MMITS - atribute 2</note>
+      </trans-unit>
+      <trans-unit id="2a85879a56da1f708aaccc9edd05b1485b088996" datatype="html">
+        <source>Designs responsivos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/firstlook/firstlook.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description">MMITS - atribute 3</note>
+      </trans-unit>
+      <trans-unit id="301c081d2aaa5e3ad8a1ab03db38717f1d1636e4" datatype="html">
+        <source>Testes de Usabilidade / Acessibilidade</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/firstlook/firstlook.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">MMITS - atribute 4</note>
+      </trans-unit>
+      <trans-unit id="1dba173f2f53b8a3696d9fde5456717f13dd9264" datatype="html">
+        <source>Aplicativos mobile e Soluções Web</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/firstlook/firstlook.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">MMITS - atribute 5</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
