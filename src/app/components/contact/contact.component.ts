@@ -1,5 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { MessageService } from '../../services/message/message.service';
 
 @Component({
   selector: 'app-contact',
@@ -8,15 +7,8 @@ import { MessageService } from '../../services/message/message.service';
 })
 export class ContactComponent implements OnInit {
 
-  constructor(public messages: MessageService) { }
+  constructor() { }
 
   ngOnInit(): void {
-  }
-
-  ngOnChanges(): void{
-  }
-
-  public gets(s:string):string{
-    return this.messages.gets(s)
   }
 }

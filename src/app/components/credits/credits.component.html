@@ -1,16 +1,24 @@
 <ng-container *ngIf="showcredits">
 
-  <app-title-page titlePage="{{gets('credits')}}" id="credits"></app-title-page>
+  <app-title-page i18n-titlePage="Credits@@credits" titlePage="Credits" id="credits"></app-title-page>
   <div class="row">
     <div class="col-12 pt-3 text-center">
-
-      {{gets("iconMageBy")}} 
+      <span i18n="Icons made by@@iconsMadeBy">
+        Icons made by:
+      </span>
       <br/>
-      <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik">Freepik</a>
+      <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik Author">
+        Freepik
+      </a>
       <br/>
-      <a href="http://www.freepik.com">Designed by katemangostar / Freepik</a>
+      <a href="http://www.freepik.com" title="Katemangostar Author">
+        Designed by katemangostar / Freepik
+      </a>
       <br/>
-      <a href="https://www.clipartmax.com/middle/m2i8b1N4i8b1N4d3_designer-ux-ui-design-brain/" target="_blank">Designer - Ux Ui Design Brain @clipartmax.com</a>
+      <a href="https://www.clipartmax.com/middle/m2i8b1N4i8b1N4d3_designer-ux-ui-design-brain/" 
+      target="_blank" title="Clipartmax Author">
+        Designer - Ux Ui Design Brain @clipartmax.com
+      </a>
     </div>
   </div>
 

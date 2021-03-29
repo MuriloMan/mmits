@@ -1,5 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { MessageService } from 'src/app/services/message/message.service';
 
 @Component({
   selector: 'app-credits',
@@ -10,17 +9,11 @@ export class CreditsComponent implements OnInit {
 
 
   @Input() showcredits:boolean;
-  constructor(public messages: MessageService) { }
+  constructor() { }
 
   ngOnInit(): void {
-    this.ngOnChanges();
   }
 
   ngOnChanges(): void{
   }
-
-  gets(s:string):string{
-    return this.messages.gets(s);
-  }
-
 }

@@ -1,5 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { MessageService } from '../../services/message/message.service';
 
 @Component({
   selector: 'app-about',
@@ -8,16 +7,11 @@ import { MessageService } from '../../services/message/message.service';
 })
 export class AboutComponent implements OnInit {
 
-  constructor(public messages: MessageService) { }
+  constructor() { }
 
   ngOnInit(): void {
   }
 
   ngOnChanges(): void {
   }
-
-  gets(s: string): string {
-    return this.messages.gets(s);
-  }
-
 }

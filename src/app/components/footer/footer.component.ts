@@ -1,5 +1,4 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { MessageService} from '../../services/message/message.service';
 import { environment } from 'src/environments/environment';
 
 @Component({
@@ -9,7 +8,7 @@ import { environment } from 'src/environments/environment';
 })
 export class FooterComponent implements OnInit {
 
-  constructor(public messages: MessageService) { }
+  constructor() { }
   public showcredits: boolean = false;
   public year: number = 0;
   public vn: string;
@@ -22,10 +21,6 @@ export class FooterComponent implements OnInit {
   }
 
   ngOnChanges(): void{
-  }
-
-  gets(s:string):string{
-    return this.messages.gets(s);
   }
 
   public showcred():void{

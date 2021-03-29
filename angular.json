@@ -54,7 +54,13 @@
               "localize": [
                 "pt"
               ],
-              "main": "src/main.pr.ts"
+              "main": "src/main.ts"
+            },
+            "en": {
+              "localize": [
+                "en"
+              ],
+              "main": "src/main.ts"
             },
             "production": {
               "fileReplacements": [
@@ -92,6 +98,9 @@
             "browserTarget": "mmits-site:build"
           },
           "configurations": {
+            "en": {
+              "browserTarget": "mmits-site:build:en"
+            },
             "pt": {
               "browserTarget": "mmits-site:build:pt"
             },
