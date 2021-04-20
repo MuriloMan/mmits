@@ -5,10 +5,15 @@
   "projects": {
     "mmits-site": {
       "i18n": {
-        "sourceLocale": "en-US",
+        "sourceLocale": {
+          "code": "en-US",
+          "baseHref": ""
+        },
         "locales": {
-          "pt": "src/locale/messages.pt.xlf",
-          "en": "src/locale/messages.xlf"
+          "pt-PT": {
+            "translation": "src/locale/messages.pt.xlf",
+            "baseHref": ""
+          }
         }
       },
       "projectType": "application",
@@ -25,12 +30,12 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "localize": true,
+            "aot": true,
             "outputPath": "dist/mmits-site",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "aot": true,
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -50,15 +55,15 @@
             }
           },
           "configurations": {
-            "pt": {
+            "pt-PT": {
               "localize": [
-                "pt"
+                "pt-PT"
               ],
               "main": "src/main.ts"
             },
-            "en": {
+            "en-US": {
               "localize": [
-                "en"
+                "en-US"
               ],
               "main": "src/main.ts"
             },
@@ -97,11 +102,11 @@
             "browserTarget": "mmits-site:build"
           },
           "configurations": {
-            "en": {
-              "browserTarget": "mmits-site:build:en"
+            "en-US": {
+              "browserTarget": "mmits-site:build:en-US"
             },
-            "pt": {
-              "browserTarget": "mmits-site:build:pt"
+            "pt-PT": {
+              "browserTarget": "mmits-site:build:pt-PT"
             },
             "production": {
               "browserTarget": "mmits-site:build:production"

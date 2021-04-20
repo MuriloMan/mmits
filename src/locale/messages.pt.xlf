@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en-US" target-language="pt" datatype="plaintext" original="ng2.template">
+  <file source-language="en-US" target-language="pt-PT" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="about" datatype="html">
         <source>About</source>
@@ -238,7 +238,7 @@
         <note priority="1" from="description">MMITS - atribute 2</note>
       </trans-unit>
       <trans-unit id="mmitsattrb3" datatype="html">
-        <source>Responsible designs</source>
+        <source>Responsive designs</source>
         <target>Designs responsivos</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/firstlook/firstlook.component.html</context>

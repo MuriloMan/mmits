@@ -2,7 +2,7 @@ echo "Removing version before."
 rm -rf ../mmits_deploy/*
 
 echo "Copying the new version"
-cp dist/mmits-site/en/* ../mmits_deploy/ -r
+cp dist/mmits-site/$1/* ../mmits_deploy/ -r
 
 echo "Pushing to the repository"
 d=$(date +%d/%m/%Y-%Hh:%Mm:%Ss)
