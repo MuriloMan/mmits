@@ -37,30 +37,6 @@
 
     <!--Style-->
     <link rel="stylesheet" href="/styles/styles.css" type="text/css" />
-
-    <!-- Load Facebook SDK for JavaScript -->
-    <div id="fb-root"></div>
-    <script>
-        window.fbAsyncInit = function () {
-            FB.init({
-                xfbml: true,
-                version: 'v10.0'
-            });
-        };
-
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
-
-    <!-- Your Chat Plugin code -->
-    <div class="fb-customerchat" attribution="install_email" page_id="103971481421318">
-    </div>
-    </div>
 </head>
 
 <body>
@@ -444,7 +420,8 @@
                 </div>
             </div>
             <div class="col-12 text-center mt-4 btc">
-                <span id="yearmmits"></span> <span i18n="All rights reserved MMITS@@mmitsallrightreserved">MMITS IT PARTNER - ALL RIGHTS
+                <span id="yearmmits"></span> <span i18n="All rights reserved MMITS@@mmitsallrightreserved">MMITS IT
+                    PARTNER - ALL RIGHTS
                     RESERVED.</span> - v<span id="versionmmits"></span>
             </div>
         </div>
