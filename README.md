@@ -11,3 +11,6 @@
 
 ## to serve
 > $http-server
+
+## Informations
+This is a landing page about MMITS.
