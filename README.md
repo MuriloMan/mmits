@@ -1,23 +1,13 @@
 # MMITS - IT PARTNER 
 
+## Init
+> $npm install
 
 ## to build
-> $ng build --configuration=pt-PT,production
-
-OR
-
-> $ng build --configuration=en-US,production
+> $./mmits-build
 
 ## to deploy
-> $./mmitsdeploy.sh pt-PT
-
-OR
-
-> $./mmitsdeploy.sh en-US
+> $./mmits-deploy.sh
 
 ## to serve
-> $ng s --configuration=pt-PT
-
-OR
-
-> $ng s --configuration=en-US
+> $http-server
