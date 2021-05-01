@@ -7,6 +7,5 @@ cp dist/* ../mmits_deploy/ -r
 echo "Pushing to the repository"
 d=$(date +%d/%m/%Y-%Hh:%Mm:%Ss)
 cd ../mmits_deploy/ && git add -A && git commit -m "New auto version at ${d}" && git push origin master
-cd ../mmits/
 
 echo "Completed"
