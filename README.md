@@ -9,7 +9,11 @@
 ## to deploy
 > $./mmits-deploy.sh
 
-## to serve
+## Run
+To run, open 2 terminals, the first one:
+> $gulp
+
+The second one:
 > $http-server
 
 ## Informations

@@ -1,6 +1,37 @@
 {
   "dependencies": {
     "bootstrap": "^4.6.0",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-browserify": "^0.5.1",
+    "gulp-cli": "^2.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
     "http-server": "^0.12.3"
-  }
+  },
+  "name": "mmits-site",
+  "description": "## Init > $npm install",
+  "version": "2.0.3",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuriloMan/mmits.git"
+  },
+  "keywords": [
+    "mmits",
+    "it",
+    "development"
+  ],
+  "author": "MMITS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuriloMan/mmits/issues"
+  },
+  "homepage": "https://github.com/MuriloMan/mmits#readme"
 }
