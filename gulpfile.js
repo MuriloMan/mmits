@@ -7,10 +7,10 @@ var gulp = require('gulp'),
 const
   src_prod_output = 'dist/',
   src_dev_output = '',
-  src_scripts = 'scripts/js/*.js',
-  src_styles = 'styles/sass/*.sass',
-  src_main_js = 'scripts/js/mmits-script.js',
-  src_main_sass = 'styles/sass/styles.sass';
+  src_scripts = 'app/scripts/js/*.js',
+  src_styles = 'app/styles/sass/*.sass',
+  src_main_js = 'app/scripts/js/mmits-script.js',
+  src_main_sass = 'app/styles/sass/styles.sass';
 
 
 gulp.task('scripts', function () {
@@ -34,20 +34,5 @@ gulp.task('watch', function () {
   gulp.watch(src_scripts, gulp.parallel('scripts'));
   gulp.watch(src_styles, gulp.parallel('styles'));
 });
-
-/*
-gulp.task('webserver', function() {
-  gulp.src('./index.html')
-    .pipe(webserver({
-      livereload: true,
-      directoryListing: true,
-      open: true,
-      port: 4200,
-      host: 'localhost',
-      //path: './index.html',
-      //fallback: './index.html'
-    }));
-});
-*/
 
 gulp.task('default', gulp.parallel('watch'/*, 'webserver'*/));

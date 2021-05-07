@@ -4,12 +4,13 @@
 <head>
     <!-- SEO CONFIG -->
     <meta charset="utf-8" />
-    <title i18n="title Site@@TitleSiteMMits">MMITS - IT PARTNER, Solutions, WebApp Development, UI/UX tests.</title>
+    <title data-t="TitleSiteMMits">
+        MMITS - IT PARTNER, Solutions, WebApp Development, UI/UX tests.
+    </title>
     <meta name="keywords" content="UX, IT, Development" />
     <meta name="author" content="MMITS - IT PARTNER" />
     <link rel="canonical" href="https://mmits-it-partner.com" />
-    <!--meta name="description" content="MMITS é uma empresa de desenvolvimento de aplicações web com foco na qualidade e experiência do usuário, com especialistas em UI / UX e também desenvolvimento, sempre seguindo modelo ágil e buscando sempre a comunicação como forma de atender todas as expectativas a fim de entregar qualidade e agregar valor no produto."/-->
-    <meta name="description" i18n-content="meta tag Description@@MetaTagDescription"
+    <meta name="description" data-attr-t content-t="MetaTagDescription"
         content="MMITS is a web application development company focused on quality and user experience, with specialists in UI / UX as well as development, always following an agile model and always looking for communication as a way to meet all expectations in order to deliver quality and add value to the product." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <base href="/" />
@@ -49,24 +50,24 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand mr-0" href="/">
-                <img src="/assets/symbol mmits.svg" title="Symbol mmits"
-                    i18n-title="Title symbol mmits@@imgsymbolmmitsTitle" i18n-alt="Logo mmits description@@logommits"
+                <img src="/assets/symbol mmits.svg" data-attr-t title="Symbol mmits" title-t="imgsymbolmmitsTitle"
+                    alt-t="logommits"
                     alt="The logo MMITS was made by Murilo Man, which there are two M lying mirrored to another inside a hexagon representing the HTML simbols < and > and a slash in the midle which means a self close tag. After the symbol, the name MMITS with IT in blue collor, everything is inside a golden ratio up and bottom bordered."
                     class="d-inline-block align-top btn-home-mmits" loading="lazy">
             </a>
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto mx-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#" routerLink="/" i18n="home superior menu@@home">Home</a>
+                        <a class="nav-link" href="#" routerLink="/" data-t="home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about" i18n="about superior menu@@about">About</a>
+                        <a class="nav-link" href="#about" data-t="about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#whatwedo" i18n="whatwedo superior menu@@whatwedo">What we do</a>
+                        <a class="nav-link" href="#whatwedo" data-t="whatwedo">What we do</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact" i18n="contact superior menu@@contact">Contact</a>
+                        <a class="nav-link" href="#contact" data-t="contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -75,27 +76,27 @@
         <!--First Look-->
         <div class="row mt-4 maxwidth mx-auto w-100" id="first-look">
             <div class="col-12 col-md-4 col-lg-6 d-flex">
-                <img src="/assets/logo_mmits.svg" title="Logo mmits" i18n-title="Title logo mmits@@imgLogoMmitsTitle"
-                    class="w-100 w-sm-75 w-md-100 m-auto" i18n-alt="mmits logo@@mmitslogo" alt="MMITS LOGO" />
+                <img src="/assets/logo_mmits.svg" data-attr-t title="Logo mmits" title-t="imgLogoMmitsTitle"
+                    class="w-100 w-sm-75 w-md-100 m-auto" alt-t="mmitslogo" alt="MMITS LOGO" />
             </div>
             <div class="col-12 col-md-8 col-lg-6">
-                <h1 class="text-center d-none d-md-block" i18n="MMITS - IT PARTNER NAME@@mmitsitpartner">
+                <h1 class="text-center d-none d-md-block" data-t="mmitsitpartner">
                     MMITS - IT PARTNER
                 </h1>
                 <ul class="list-group list-group-flush text-center text-md-left">
-                    <li class="list-group-item" i18n="MMITS - atribute 1@@mmitsattrb1">
+                    <li class="list-group-item" data-t="mmitsattrb1">
                         IT Consulting
                     </li>
-                    <li class="list-group-item" i18n="MMITS - atribute 2@@mmitsattrb2">
+                    <li class="list-group-item" data-t="mmitsattrb2">
                         UI/UX Specialists
                     </li>
-                    <li class="list-group-item" i18n="MMITS - atribute 3@@mmitsattrb3">
+                    <li class="list-group-item" data-t="mmitsattrb3">
                         Responsive designs
                     </li>
-                    <li class="list-group-item" i18n="MMITS - atribute 4@@mmitsattrb4">
+                    <li class="list-group-item" data-t="mmitsattrb4">
                         Usability / Accessability tests
                     </li>
-                    <li class="list-group-item" i18n="MMITS - atribute 5@@mmitsattrb5">
+                    <li class="list-group-item" data-t="mmitsattrb5">
                         Mobile Apps and Web Solutions
                     </li>
                 </ul>
@@ -108,23 +109,22 @@
         <!--What we do-->
         <div class="row mt-4 maxwidth mx-auto" id="whatwedo">
             <div class="col-12 text-center my-3">
-                <h2 class="title-page text-uppercase" i18n="What we do@@whatwedo">What we do</h2>
+                <h2 class="title-page text-uppercase" data-t="whatwedo">What we do</h2>
                 <hr />
             </div>
             <div class="col-12">
                 <div class="row mt-4 maxwidth mx-auto descBlock">
                     <div class="col-12 col-sm-5 col-md-6 d-sm-block text-center my-auto px-0">
-                        <img src="../../assets/mmits_coding.jpg" title="Man Developing"
-                            i18n-title="Title Man developing@@imgManDevelopingTitle"
-                            i18n-alt="Man developing@@imgAltManDeveloping" alt="A man developing code on notebook."
-                            class="w-100" />
+                        <img src="../../assets/mmits_coding.jpg" data-attr-t title="Man Developing"
+                            title-t="imgManDevelopingTitle" alt-t="imgAltManDeveloping"
+                            alt="A man developing code on notebook." class="w-100" />
                     </div>
 
                     <div class="col-12 col-sm-7 col-md-6 text-center my-auto py-4">
-                        <h3 class="text-uppercase" i18n="Developers and UX Specialists title@@developersuxspecialists">
+                        <h3 class="text-uppercase" data-t="developersuxspecialists">
                             Developers and UX Specialists
                         </h3>
-                        <h4 i18n="Developers and UX Specialists desc@@developersuxspecialistsDesc">
+                        <h4 data-t="developersuxspecialistsDesc">
                             We bring the development process closer to you. Daily meetings are important for better
                             decisions,
                             our
@@ -136,41 +136,36 @@
 
                 <div class="row mt-4 maxwidth mx-auto descBlock">
                     <div class="col-12 col-sm-5 col-md-6 text-center my-auto px-0 d-sm-none">
-                        <img src="/assets/agileteam.svg" title="Agile Team" i18n-title="Title Agile Team@@imgAgileTeam"
-                            i18n-alt="Agile team scrum table@@agileTeamScrumTable"
+                        <img src="/assets/agileteam.svg" data-attr-t title="Agile Team" title-t="imgAgileTeam"
+                            alt-t="agileTeamScrumTable"
                             alt="People working together as a team to make something bigger." class="w-100">
                     </div>
                     <div class="col-12 col-sm-7 col-md-6 text-center my-auto py-4">
-                        <h3 class="text-uppercase" i18n="Agile Team title@@agileTeam">
+                        <h3 class="text-uppercase" data-t="agileTeam">
                             Agile Team
                         </h3>
-                        <h4 i18n="Agile team desc@@agileTeamDesc">
+                        <h4 data-t="agileTeamDesc">
                             We follow an agile methodology to bring great results to your goals. The entire development
-                            is
-                            always
-                            with a focus
-                            on delivering business value.
+                            is always with a focus on delivering business value.
                         </h4>
                     </div>
                     <div class="col-12 col-sm-5 col-md-6 text-center my-auto px-0 d-none d-sm-block">
-                        <img src="/assets/agileteam.svg" title="Agile Team" i18n-title="Title Agile Team@@imgAgileTeam"
-                            i18n-alt="Agile team scrum table@@agileTeamScrumTable"
+                        <img src="/assets/agileteam.svg" data-attr-t title="Agile Team" title-t="imgAgileTeam"
+                            alt-t="agileTeamScrumTable"
                             alt="People working together as a team to make something bigger." class="w-100">
                     </div>
                 </div>
 
                 <div class="row mt-4 maxwidth mx-auto descBlock">
                     <div class="col-12 col-sm-5 col-md-6 d-sm-block text-center my-auto px-0">
-                        <img src="/assets/stick_notes.jpg" title="Stick Notes"
-                            i18n-title="Title Stick notes@@imgStickNotesTeam"
-                            i18n-alt="Desk with postit@@deskpostitPrototype"
-                            alt="Prototype layouts drawn on stick notes." class="w-100">
+                        <img src="/assets/stick_notes.jpg" data-attr-t title="Stick Notes" title-t="imgStickNotesTeam"
+                            alt-t="deskpostitPrototype" alt="Prototype layouts drawn on stick notes." class="w-100">
                     </div>
                     <div class="col-12 col-sm-7 col-md-6 text-center my-auto py-4">
-                        <h3 class="text-uppercase" i18n="Our Focus title@@ourFocus">
+                        <h3 class="text-uppercase" data-t="ourFocus">
                             Our focus
                         </h3>
-                        <h4 i18n="Our Focus desc@@ourFocusDesc">
+                        <h4 data-t="ourFocusDesc">
                             We develop applications always thinking about the user experience and also the business
                             value, using
                             techniques
@@ -185,11 +180,11 @@
         <!--About-->
         <div class="row mt-4 maxwidth mx-auto" id="about">
             <div class="col-12 text-center my-3">
-                <h2 class="title-page text-uppercase" i18n="About @@about">About</h2>
+                <h2 class="title-page text-uppercase" data-t="about">About</h2>
                 <hr />
             </div>
             <div class="col-12 text-center my-auto">
-                <p class="text-about lns-2 text-justify" i18n="About mmits description@@aboutMMitsDesc">
+                <p class="text-about lns-2 text-justify" data-t="aboutMMitsDesc">
                     MMITS is made up by professionals who focus directly on delivering business value and have the
                     technology in their
                     hands. Created in 2020, working on customized projects and also as an IT partner focused on
@@ -204,15 +199,14 @@
                     <div class="col-12 my-4">
                         <div class="row">
                             <div class="col-12 col-md-4 d-flex">
-                                <img src="/assets/mission.svg" title="Mission"
-                                    i18n-title="Mission title@@imgMissionTitle" class="w-100 iconmmits my-auto"
-                                    i18n-alt="Mission Image Alt@@imgaltMission" alt="Mission">
+                                <img src="/assets/mission.svg" data-attr-t title="Mission" title-t="imgMissionTitle"
+                                    class="w-100 iconmmits my-auto" alt-t="imgaltMission" alt="Mission">
                             </div>
                             <div class="col-12 col-md-8">
-                                <h2 class="title-mmits text-uppercase" i18n="Mission from company attribs@@mission">
+                                <h2 class="title-mmits text-uppercase" data-t="mission">
                                     MISSION
                                 </h2>
-                                <h3 class="text-justify" i18n="Mission desc from company attribs@@missionDesc">
+                                <h3 class="text-justify" data-t="missionDesc">
                                     Execute agile deliveries, development based on UI / UX analysis, guided by effective
                                     communication with
                                     the customer for deliveries focused on quality and that add a lot of value.
@@ -223,15 +217,14 @@
                     <div class="col-12 my-4">
                         <div class="row">
                             <div class="col-12 col-md-4 d-flex">
-                                <img src="/assets/vision.svg" title="Vision" i18n-title="Title vision@@imgVisionTitle"
-                                    class="w-100 iconmmits my-auto" i18n-alt="Vision Image alt@@imgaltVision"
-                                    alt="Vision">
+                                <img src="/assets/vision.svg" data-attr-t title="Vision" title-t="imgVisionTitle"
+                                    class="w-100 iconmmits my-auto" alt-t="imgaltVision" alt="Vision">
                             </div>
                             <div class="col-12 col-md-8">
-                                <h2 class="title-mmits text-uppercase" i18n="Vision from company attribs@@vision">
+                                <h2 class="title-mmits text-uppercase" data-t="vision">
                                     VISION
                                 </h2>
-                                <h3 class="text-justify" i18n="Vision desc from company attribs@@visionDesc">
+                                <h3 class="text-justify" data-t="visionDesc">
                                     To be a company reference for developing and improving the user experience with
                                     innovative solutions and
                                     also for the quality of the service provided, with highly trained professionals in
@@ -244,15 +237,14 @@
                     <div class="col-12 my-4">
                         <div class="row">
                             <div class="col-12 col-md-4 d-flex">
-                                <img src="/assets/value.svg" title="Values" i18n-title="Title values@@imgValuesTitle"
-                                    class="w-100 iconmmits my-auto" i18n-alt="Values Image alt@@imgaltValues"
-                                    alt="Values">
+                                <img src="/assets/value.svg" data-attr-t title="Values" title-t="imgValuesTitle"
+                                    class="w-100 iconmmits my-auto" alt-t="imgaltValues" alt="Values">
                             </div>
                             <div class="col-12 col-md-8">
-                                <h2 class="title-mmits text-uppercase" i18n="Values from company attribs@@values">
+                                <h2 class="title-mmits text-uppercase" data-t="values">
                                     VALUES
                                 </h2>
-                                <h3 class="text-justify" i18n="Values desc from company attribs@@valuesDesc">
+                                <h3 class="text-justify" data-t="valuesDesc">
                                     We are committed to our deliveries. Persistence in finding appropriated
                                     solutions. We seek innovations in developing solutions.
                                 </h3>
@@ -272,7 +264,7 @@
             <div class="col-12 col-xl-8 offset-xl-2">
                 <div class="row attr-block">
                     <div class="col-12 col-md-3 col-lg-3 attr-contact text-center text-md-right my-auto">
-                        <span i18n="email from contact@@email">
+                        <span data-t="email">
                             Email:
                         </span>
                         <hr class="d-md-none" />
@@ -287,7 +279,7 @@
             <div class="col-12 col-xl-8 offset-xl-2">
                 <div class="row attr-block">
                     <div class="col-12 col-md-3 col-lg-3 attr-contact text-center text-md-right my-auto">
-                        <span i18n="Phone from contact@@phone">Phone:</span>
+                        <span data-t="phone">Phone:</span>
                         <hr class="d-md-none" />
                     </div>
                     <div class="col-12 col-md-9 col-lg-9 attr-contact-value text-center text-md-left">
@@ -299,7 +291,7 @@
             <div class="col-12 col-xl-8 offset-xl-2">
                 <div class="row attr-block">
                     <div class="col-12 col-md-3 col-lg-3 attr-contact text-center text-md-right my-auto">
-                        <span i18n="Facebook from contact@@facebook">facebook:</span>
+                        <span data-t="facebook">facebook:</span>
                         <hr class="d-md-none" />
                     </div>
                     <div class="col-12 col-md-9 col-lg-9 attr-contact-value text-center text-md-left">
@@ -311,13 +303,13 @@
             <div class="col-12 col-xl-8 offset-xl-2">
                 <div class="row attr-block">
                     <div class="col-12 col-md-3 col-lg-3 attr-contact text-center text-md-right my-auto">
-                        <span i18n="Whatsapp from contact@@whatsapp">WhatsApp:</span>
+                        <span data-t="whatsapp">WhatsApp:</span>
                         <hr class="d-md-none" />
                     </div>
                     <div class="col-12 col-md-9 col-lg-9 attr-contact-value text-center text-md-left">
                         <strong>
-                            <a href="https://api.WhatsApp.com/send?phone=5511933849110" target="_blank"
-                                i18n-title="Whatsapp link@@whatsappLink" title="Whatsapp link">
+                            <a href="https://api.WhatsApp.com/send?phone=5511933849110" data-attr-t target="_blank"
+                                title-t="whatsappLink" title="Whatsapp link">
                                 +55 (11) <br class="d-block d-md-none" />93384-9110
                             </a>
                         </strong>
@@ -329,11 +321,11 @@
         <!--Credits TODO:*ngIf="showcredits"-->
         <div class="row mt-4 maxwidth mx-auto d-none" id="credits">
             <div class="col-12 text-center my-3">
-                <h2 class="title-page text-uppercase" i18n="Credits@@credits">Credits</h2>
+                <h2 class="title-page text-uppercase" data-t="credits">Credits</h2>
                 <hr />
             </div>
             <div class="col-12 pt-3 text-center">
-                <span i18n="Icons made by@@iconsMadeBy">
+                <span data-t="iconsMadeBy">
                     Icons made by:
                 </span>
                 <br />
@@ -349,9 +341,9 @@
                     target="_blank" title="Clipartmax Author">
                     Designer - Ux Ui Design Brain @clipartmax.com
                 </a>
-                <br/>
+                <br />
                 <a href="https://github.com/MuriloMan/mmits" target="_blank" title="MMITS repository">
-                    GitHub MMITS project free source.
+                    GitHub MMITS project open source.
                 </a>
             </div>
         </div>
@@ -359,39 +351,41 @@
         <!--Footer-->
         <div class="row maxwidth mx-auto mt-4" id="footer">
             <div class="col-12 col-sm-6 col-md-4 pt-3 text-center">
-                <h4 class="font-weight-bold text-uppercase" i18n="MMITS - IT PARTNER NAME@@mmitsitpartner">MMITS - IT
-                    PARTNER</h4>
+                <h4 class="font-weight-bold text-uppercase" data-t="mmitsitpartner">
+                    MMITS - IT PARTNER</h4>
                 <p class="my-0 text-uppercase">
-                    <span i18n="Ribeirao preto city@@ribeiraopreto">Ribeirão Preto - SP</span> <br />
-                    <span i18n="Taquaritinga city@@taquaritinga">Taquaritinga - SP</span>
+                    <span data-t="ribeiraopreto">Ribeirão Preto - SP</span> <br />
+                    <span data-t="taquaritinga">Taquaritinga - SP</span>
                 </p>
                 <p class="my-0 text-uppercase">
-                    <span i18n="CNPJ@@cnpj">CNPJ: 36.351.403/0001-22</span>
+                    <span data-t="cnpj">CNPJ: 36.351.403/0001-22</span>
                 </p>
             </div>
             <div class="col-12 col-sm-6 col-md-4 pt-3 text-center">
                 <h4 class="font-weight-bold text-uppercase">
-                    <span i18n="Site map from footer@@sitemap">Site Map</span>
+                    <span data-t="sitemap">Site Map</span>
                 </h4>
                 <a class="nav-link p-0 text-uppercase hme" href="#" routerLink="/">
-                    <span i18n="Home name page@@home">Home</span>
+                    <span data-t="home">Home</span>
                 </a>
                 <a class="nav-link p-0 text-uppercase hme" href="#about">
-                    <span i18n="About from footer@@about">About</span>
+                    <span data-t="about">About</span>
                 </a>
                 <a class="nav-link p-0 text-uppercase hme" href="#whatwedo">
-                    <span i18n="What we do from footer@@whatwedo">What we do</span>
+                    <span data-t="whatwedo">What we do</span>
                 </a>
                 <a class="nav-link p-0 text-uppercase hme" href="#contact">
-                    <span i18n="Contact from footer@@contact">Contact</span>
+                    <span data-t="contact">Contact</span>
                 </a>
                 <a class="nav-link p-0 text-uppercase hme" href="#credits" id="clickShowCredits">
-                    <span i18n="Credits from footer@@credits">Credits</span>
+                    <span data-t="credits">Credits</span>
                 </a>
             </div>
             <div class="col-12 col-sm-12 col-md-4 pt-3 text-center">
                 <h4 class="font-weight-bold text-uppercase">
-                    <span i18n="Social Networks from footer@@socialnetworks">Social Networks</span>
+                    <span data-t="socialnetworks">
+                        Social Networks
+                    </span>
                 </h4>
                 <div class="row h-100">
                     <div class="col-12 col-sm-6 offset-sm-3 col-md-12 offset-md-0 col-lg-8 offset-lg-2 d-flex h-100">
@@ -425,9 +419,12 @@
                 </div>
             </div>
             <div class="col-12 text-center mt-4 btc">
-                <span id="yearmmits"></span> <span i18n="All rights reserved MMITS@@mmitsallrightreserved">MMITS IT
-                    PARTNER - ALL RIGHTS
-                    RESERVED.</span> - v<span id="versionmmits"></span>
+                <span id="yearmmits"></span>
+                <span data-t="mmitsallrightreserved">
+                    MMITS IT PARTNER - ALL RIGHTS RESERVED.
+                </span>
+                - v
+                <span id="versionmmits"></span>
             </div>
         </div>
 
