@@ -7,6 +7,11 @@
     <url>
         <loc>https://mmits-it-partner.com/</loc>
         <priority>1</priority>
-        <lastmod>2021-04-23T18:52:58+00:00</lastmod>
+        <lastmod>2021-05-10T20:26:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://mmits-it-partner.com/en</loc>
+        <priority>1</priority>
+        <lastmod>2021-05-10T20:26:00+00:00</lastmod>
     </url>
 </urlset>
