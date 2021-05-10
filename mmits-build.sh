@@ -4,18 +4,14 @@ echo "i18n processing for pt..."
 static-i18n -o="dist/" -l="pt" -i="pt" app/
 echo "i18n processing for en..."
 static-i18n -o="dist/" -l="pt" -i="en" app/
+echo "Creating script folder"
+mkdir dist/scripts
+echo "Creating styles folder"
+mkdir dist/styles
 echo "Gulp reloading task scripts"
 gulp scripts
 echo "gulp reloading task styles"
 gulp styles
-echo "Creating script folder"
-mkdir dist/scripts
-echo "Copying scritps..."
-cp app/scripts/mmits-script.min.js dist/scripts/
-echo "Creating styles folder"
-mkdir dist/styles
-echo "Copying styles..."
-cp app/styles/styles.min.css dist/styles/
 echo "Copying everything else it needs..."
 cp robots.txt dist/
 cp sitemap.xml dist/

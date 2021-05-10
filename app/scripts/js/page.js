@@ -15,6 +15,7 @@ $(function () {
 
 
     //auto call function, fix link english version
+    debugger;
     (function(){
         if(window.location.href.includes('/en/')){
             $('a').each(function(_i,e){

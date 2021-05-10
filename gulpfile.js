@@ -6,7 +6,6 @@ var gulp = require('gulp'),
 
 const
   src_prod_output = 'dist/',
-  src_dev_output = '',
   src_scripts = 'app/scripts/js/*.js',
   src_styles = 'app/styles/sass/*.sass',
   src_main_js = 'app/scripts/js/mmits-script.js',
@@ -18,7 +17,6 @@ gulp.task('scripts', function () {
     .pipe(browserify())
     .pipe(uglify())
     .pipe(rename({ extname: '.min.js' }))
-    .pipe(gulp.dest(src_dev_output + 'scripts/'))
     .pipe(gulp.dest(src_prod_output + 'scripts/'));
 });
 
@@ -26,7 +24,6 @@ gulp.task('styles', function () {
   return gulp.src(src_main_sass)
     .pipe(sass.sync({ outputStyle: 'compressed' }).on('error', sass.logError))
     .pipe(rename({ extname: '.min.css' }))
-    .pipe(gulp.dest(src_dev_output + 'styles/'))
     .pipe(gulp.dest(src_prod_output + 'styles/'));
 });
 
