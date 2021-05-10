@@ -10,7 +10,7 @@
     "mmitsattrb2": "Especialistas em UI/UX",
     "mmitsattrb3": "Designs responsivos",
     "mmitsattrb4": "Testes de Usabilidade e Acessibilidade",
-    "mmitsattrb5": "Aplicativos mobile e Soluções Web",
+    "mmitsattrb5": "Soluções Web",
     "developersuxspecialists": "Desenvolvedores e Especialistas de UX",
     "developersuxspecialistsDesc": "Nós trazemos o processo de desenvolvimento mais perto de você. Reuniões diárias são importantes para melhores decisões, nosso foco é a entrega contínua e velocidade de adaptação.",
     "agileTeam": "Time Ágil",
@@ -52,5 +52,7 @@
     "imgaltVision":"Visão",
     "imgValuesTitle":"Valores",
     "imgaltValues":"Valores",
-    "whatsappLink":"Link do Whatsapp"
+    "whatsappLink":"Link do Whatsapp",
+    "goToOtherLangpage": "Go to English page",
+    "enHtmlAttr": "pt"
 }

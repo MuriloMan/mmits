@@ -10,7 +10,7 @@
     "mmitsattrb2": "UI/UX Specialists",
     "mmitsattrb3": "Responsive designs",
     "mmitsattrb4": "Usability / Accessability tests",
-    "mmitsattrb5": "Mobile Apps and Web Solutions",
+    "mmitsattrb5": "Web Solutions",
     "developersuxspecialists": "Developers and UX Specialists",
     "developersuxspecialistsDesc": "We bring the development process closer to you. Daily meetings are important for better decisions, our focus is continuous delivery and fast adaptation.",
     "agileTeam": "Agile Team",
@@ -52,5 +52,7 @@
     "imgaltVision":"Vision",
     "imgValuesTitle":"Values",
     "imgaltValues":"Values",
-    "whatsappLink":"Whatsapp link"
+    "whatsappLink":"Whatsapp link",
+    "goToOtherLangpage": "Ir para página em Português",
+    "enHtmlAttr": "en"
 }
