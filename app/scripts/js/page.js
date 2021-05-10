@@ -14,10 +14,13 @@ $(function () {
     }, 'json');
 
 
-    $(function(){
+    //auto call function, fix link english version
+    (function(){
         if(window.location.href.includes('/en/')){
             $('a').each(function(_i,e){
-                e.href = e.href.replace('.com/', '.com/en/');
+                e.href = e.href
+                .replace('/en/', '')
+                .replace('.com/', '.com/en/');
             });
         }
     })();
