@@ -16,11 +16,10 @@ $(function () {
 
     $(function(){
         if(window.location.href.includes('/en/')){
-            $('a').each(function(i,e){
-                e.href = '/en/' + e.href;
-                console.log(e.href);
+            $('a').each(function(_i,e){
+                e.href = e.href.replace('.com/', '.com/en/');
             });
         }
-    })
+    })();
 
 });
