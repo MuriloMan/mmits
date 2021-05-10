@@ -1,7 +1,9 @@
 echo "Removing old files"
 rm -rf dist/*
-echo "i18n processing for $1..."
-static-i18n -o="dist/" -l="$1" -i="$1" app/
+echo "i18n processing for pt..."
+static-i18n -o="dist/" -l="pt" -i="pt" app/
+echo "i18n processing for en..."
+static-i18n -o="dist/" -l="pt" -i="en" app/
 echo "Gulp reloading task scripts"
 gulp scripts
 echo "gulp reloading task styles"

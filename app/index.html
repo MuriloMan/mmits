@@ -3,7 +3,8 @@
 
 <head>
     <!-- SEO CONFIG -->
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <meta content="text/html" />
     <title data-t="TitleSiteMMits">
         MMITS - IT PARTNER, Solutions, WebApp Development, UI/UX tests.
     </title>
@@ -55,19 +56,30 @@
                     alt="The logo MMITS was made by Murilo Man, which there are two M lying mirrored to another inside a hexagon representing the HTML simbols < and > and a slash in the midle which means a self close tag. After the symbol, the name MMITS with IT in blue collor, everything is inside a golden ratio up and bottom bordered."
                     class="d-inline-block align-top btn-home-mmits" loading="lazy">
             </a>
+            <a class="navbar-brand d-lg-none mr-0 px-1 navbar-toggler" href="en/">
+                <img  src="/assets/usflag.svg" alt="Go to english page"
+                    class="d-inline-block align-top btn-home-mmits" loading="lazy">
+            </a>
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto mx-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#" routerLink="/" data-t="home">Home</a>
+                        <a class="nav-link" href="/#" routerLink="/" data-t="home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about" data-t="about">About</a>
+                        <a class="nav-link" href="/#about" data-t="about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#whatwedo" data-t="whatwedo">What we do</a>
+                        <a class="nav-link" href="/#whatwedo" data-t="whatwedo">What we do</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact" data-t="contact">Contact</a>
+                        <a class="nav-link" href="/#contact" data-t="contact">Contact</a>
+                    </li>
+                    <li class="nav-item d-block d-lg-none">
+                        <a class="navbar-brand d-lg-block mr-0 px-1 navbar-toggler" href="/">
+                            <img href="en/" src="/assets/brflag.svg" alt="Go to portuguese page"
+                            class="btn-home-mmits d-inline-block align-top" loading="lazy">
+                        </a>
+                        
                     </li>
                 </ul>
             </div>
@@ -115,7 +127,7 @@
             <div class="col-12">
                 <div class="row mt-4 maxwidth mx-auto descBlock">
                     <div class="col-12 col-sm-5 col-md-6 d-sm-block text-center my-auto px-0">
-                        <img src="../../assets/mmits_coding.jpg" data-attr-t title="Man Developing"
+                        <img src="/assets/mmits_coding.jpg" data-attr-t title="Man Developing"
                             title-t="imgManDevelopingTitle" alt-t="imgAltManDeveloping"
                             alt="A man developing code on notebook." class="w-100" />
                     </div>
@@ -237,13 +249,8 @@
                     <div class="col-12 my-4">
                         <div class="row">
                             <div class="col-12 col-md-4 d-flex">
-                                <img src="/assets/value.svg" 
-                                data-attr-t
-                                title="Values" 
-                                title-t="imgValuesTitle"
-                                class="w-100 iconmmits my-auto" 
-                                alt-t="imgaltValues"
-                                alt="Values">
+                                <img src="/assets/value.svg" data-attr-t title="Values" title-t="imgValuesTitle"
+                                    class="w-100 iconmmits my-auto" alt-t="imgaltValues" alt="Values">
                             </div>
                             <div class="col-12 col-md-8">
                                 <h2 class="title-mmits text-uppercase" data-t="values">
@@ -313,9 +320,7 @@
                     </div>
                     <div class="col-12 col-md-9 col-lg-9 attr-contact-value text-center text-md-left">
                         <strong>
-                            <a href="https://api.WhatsApp.com/send?phone=5511933849110" 
-                            data-attr-t
-                            target="_blank"
+                            <a href="https://api.WhatsApp.com/send?phone=5511933849110" data-attr-t target="_blank"
                                 title-t="whatsappLink" title="Whatsapp link">
                                 +55 (11) <br class="d-block d-md-none" />93384-9110
                             </a>
@@ -372,19 +377,19 @@
                 <h4 class="font-weight-bold text-uppercase">
                     <span data-t="sitemap">Site Map</span>
                 </h4>
-                <a class="nav-link p-0 text-uppercase hme" href="#" routerLink="/">
+                <a class="nav-link p-0 text-uppercase hme" href="/#" routerLink="/">
                     <span data-t="home">Home</span>
                 </a>
-                <a class="nav-link p-0 text-uppercase hme" href="#about">
+                <a class="nav-link p-0 text-uppercase hme" href="/#about">
                     <span data-t="about">About</span>
                 </a>
-                <a class="nav-link p-0 text-uppercase hme" href="#whatwedo">
+                <a class="nav-link p-0 text-uppercase hme" href="/#whatwedo">
                     <span data-t="whatwedo">What we do</span>
                 </a>
-                <a class="nav-link p-0 text-uppercase hme" href="#contact">
+                <a class="nav-link p-0 text-uppercase hme" href="/#contact">
                     <span data-t="contact">Contact</span>
                 </a>
-                <a class="nav-link p-0 text-uppercase hme" href="#credits" id="clickShowCredits">
+                <a class="nav-link p-0 text-uppercase hme" href="/#credits" id="clickShowCredits">
                     <span data-t="credits">Credits</span>
                 </a>
             </div>

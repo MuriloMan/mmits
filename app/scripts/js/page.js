@@ -1,5 +1,6 @@
 $(function () {
 
+        
     $('#clickShowCredits').on('click', function () {
         if ($('#credits').hasClass('d-none'))
             $('#credits').removeClass('d-none');
@@ -12,5 +13,14 @@ $(function () {
         $('#versionmmits').html(data.version);
     }, 'json');
 
+
+    $(function(){
+        if(window.location.href.includes('/en/')){
+            $('a').each(function(i,e){
+                e.href = '/en/' + e.href;
+                console.log(e.href);
+            });
+        }
+    })
 
 });
