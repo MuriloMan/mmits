@@ -23,10 +23,15 @@ $(function () {
             $('#imgFlagxs').attr({ 'src': '/assets/brflag.svg' });
 
             //change urls
-            $('a').each(function (_i, e) {
+            $('.cl').each(function (_i, e) {
                 e.href = e.href
                     .replace('/en/', '')
                     .replace('.com/', '.com/en/');
+            });
+
+            //To portuguese
+            $('.cng-lang').each(function(_i,e){
+                e.href = '/';
             });
         } else {
             $('#imgFlaglg').attr({ 'src': '/assets/usflag.svg' });

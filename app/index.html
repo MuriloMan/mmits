@@ -9,7 +9,7 @@
     </title>
     <meta name="keywords" content="UX, IT, Development" />
     <meta name="author" content="MMITS - IT PARTNER" />
-    <link rel="canonical" href="https://mmits-it-partner.com" />
+    <link rel="canonical" href="https://mmits-it-partner.com/" />
     <meta name="description" data-attr-t content-t="MetaTagDescription"
         content="MMITS is a web application development company focused on quality and user experience, with specialists in UI / UX as well as development, always following an agile model and always looking for communication as a way to meet all expectations in order to deliver quality and add value to the product." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -39,50 +39,69 @@
     <!--Facebook-->
     <meta property="og:url" content="https://mmits-it-partner.com/" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" data-attr-t content-t="TitleSiteMMits" content="MMITS - IT PARTNER, Solutions, WebApp Development, UI/UX tests." />
-    <meta property="og:description" data-attr-t content-t="MetaTagDescription" content="MMITS is a web application development company focused on quality and user experience, with specialists in UI / UX as well as development, always following an agile model and always looking for communication as a way to meet all expectations in order to deliver quality and add value to the product." />
+    <meta property="og:title" data-attr-t content-t="TitleSiteMMits"
+        content="MMITS - IT PARTNER, Solutions, WebApp Development, UI/UX tests." />
+    <meta property="og:description" data-attr-t content-t="MetaTagDescription"
+        content="MMITS is a web application development company focused on quality and user experience, with specialists in UI / UX as well as development, always following an agile model and always looking for communication as a way to meet all expectations in order to deliver quality and add value to the product." />
     <meta property="og:image" content="https://mmits-it-partner.com/assets/logo_mmits.svg" />
 
 
     <!--Style-->
     <link rel="stylesheet" href="/styles/styles.min.css" type="text/css" />
+
+
+    <!--Google tag Manager-->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KJSPGFH');</script>
 </head>
 
 <body>
 
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJSPGFH" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <div class="container-fluid">
+
         <!--Header-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light maxwidth mx-auto nbgc">
             <button class="navbar-toggler px-1" type="button" data-toggle="collapse" data-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mr-0" href="/">
+            <a class="navbar-brand mr-0 cl" href="/">
                 <img src="/assets/symbol_mmits.svg" data-attr-t title="Symbol mmits" title-t="imgsymbolmmitsTitle"
                     alt-t="logommits"
                     alt="The logo MMITS was made by Murilo Man, which there are two M lying mirrored to another inside a hexagon representing the HTML simbols < and > and a slash in the midle which means a self close tag. After the symbol, the name MMITS with IT in blue collor, everything is inside a golden ratio up and bottom bordered."
                     class="d-inline-block align-top btn-home-mmits" loading="lazy">
             </a>
-            <a class="navbar-brand d-lg-none mr-0 px-1 navbar-toggler" href="/en/">
+            <a class="navbar-brand d-lg-none mr-0 px-1 navbar-toggler cng-lang" href="/en/">
                 <img src="/assets/usflag.svg" data-attr-t alt-t="goToOtherLangpage" alt="Go to portuguese page"
                     id="imgFlagxs" class="d-inline-block align-top btn-home-mmits" loading="lazy">
             </a>
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto mx-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="/#" data-t="home">Home</a>
+                        <a class="nav-link cl" href="/#" data-t="home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/#about" data-t="about">About</a>
+                        <a class="nav-link cl" href="/#about" data-t="about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/#whatwedo" data-t="whatwedo">What we do</a>
+                        <a class="nav-link cl" href="/#whatwedo" data-t="whatwedo">What we do</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/#contact" data-t="contact">Contact</a>
+                        <a class="nav-link cl" href="/#contact" data-t="contact">Contact</a>
                     </li>
                 </ul>
-                <a class="navbar-brand mr-0 px-1 navbar-toggler d-none d-lg-block" href="/en/">
+                <a class="navbar-brand mr-0 px-1 navbar-toggler d-none d-lg-block cng-lang" href="/en/">
                     <img src="/assets/usflag.svg" id="imgFlaglg" data-attr-t alt-t="goToOtherLangpage"
                         alt="Go to portuguese page" class="btn-home-mmits d-inline-block align-top" loading="lazy">
                 </a>
@@ -192,7 +211,6 @@
             </div>
         </div>
 
-
         <!--About-->
         <div class="row mt-4 maxwidth mx-auto" id="about">
             <div class="col-12 text-center my-3">
@@ -273,10 +291,14 @@
 
         <!--Contact-->
         <div class="row mt-4 maxwidth mx-auto" id="contact">
+
+            <!--Title-->
             <div class="col-12 text-center my-3">
                 <h2 class="title-page text-uppercase" data-t="contact">Contact</h2>
                 <hr />
             </div>
+
+            <!--Email-->
             <div class="col-12 col-xl-8 offset-xl-2">
                 <div class="row attr-block">
                     <div class="col-12 col-md-3 col-lg-3 attr-contact text-center text-md-right my-auto">
@@ -286,12 +308,17 @@
                         <hr class="d-md-none" />
                     </div>
                     <div class="col-12 col-md-9 col-lg-9 attr-contact-value text-center text-md-left">
-                        <strong>murilo<br class="d-block d-lg-none" />@mmits<br class="d-block d-sm-none" />-it-<br
-                                class="d-block d-sm-none" />partner<br class="d-block d-md-none" />.com</strong>
+                        <strong>
+                            <a href="mailto:murilo@mmits-it-partner.com" data-attr-t target="_blank"
+                                title-t="EmailLink" title="Link to send an email">
+                                murilo<br class="d-block d-lg-none" />@mmits<br class="d-block d-sm-none" />-it-<br class="d-block d-sm-none" />partner<br class="d-block d-md-none" />.com
+                            </a>
+                        </strong>
                     </div>
                 </div>
             </div>
 
+            <!--Phone-->
             <div class="col-12 col-xl-8 offset-xl-2">
                 <div class="row attr-block">
                     <div class="col-12 col-md-3 col-lg-3 attr-contact text-center text-md-right my-auto">
@@ -304,6 +331,7 @@
                 </div>
             </div>
 
+            <!--Facebook-->
             <div class="col-12 col-xl-8 offset-xl-2">
                 <div class="row attr-block">
                     <div class="col-12 col-md-3 col-lg-3 attr-contact text-center text-md-right my-auto">
@@ -311,11 +339,17 @@
                         <hr class="d-md-none" />
                     </div>
                     <div class="col-12 col-md-9 col-lg-9 attr-contact-value text-center text-md-left">
-                        <strong>fb.com/<br class="d-block d-md-none" />mmitsitpartner</strong>
+                        <strong>
+                            <a href="https://fb.com/MMITSITPARTNER" data-attr-t target="_blank"
+                                title-t="facebookLink" title="Facebook page link">
+                                fb.com/<br class="d-block d-md-none" />MMITS<br class="d-block d-md-none" />IT<br class="d-block d-md-none" />PARTNER
+                            </a>
+                        </strong>
                     </div>
                 </div>
             </div>
 
+            <!--Whatsapp-->
             <div class="col-12 col-xl-8 offset-xl-2">
                 <div class="row attr-block">
                     <div class="col-12 col-md-3 col-lg-3 attr-contact text-center text-md-right my-auto">
@@ -332,9 +366,27 @@
                     </div>
                 </div>
             </div>
+
+            <!--Chat-->
+            <div class="col-12 col-xl-8 offset-xl-2">
+                <div class="row attr-block">
+                    <div class="col-12 col-md-3 col-lg-3 attr-contact text-center text-md-right my-auto">
+                        <span data-t="Messenger">Messenger:</span>
+                        <hr class="d-md-none" />
+                    </div>
+                    <div class="col-12 col-md-9 col-lg-9 attr-contact-value text-center text-md-left">
+                        <strong>
+                            <a href="https://m.me/MMITSITPARTNER" data-attr-t target="_blank"
+                                title-t="messengerLink" title="Messenger Link">
+                                m.me/<br class="d-block d-md-none" />MMITS<br class="d-block d-md-none" />IT<br class="d-block d-md-none" />PARTNER
+                            </a>
+                        </strong>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <!--Credits TODO:*ngIf="showcredits"-->
+        <!--Credits-->
         <div class="row mt-4 maxwidth mx-auto d-none" id="credits">
             <div class="col-12 text-center my-3">
                 <h2 class="title-page text-uppercase" data-t="credits">Credits</h2>
@@ -349,7 +401,7 @@
                     Freepik
                 </a>
                 <br />
-                <a href="http://www.freepik.com" title="Katemangostar Author">
+                <a href="http://www.freepik.com/" title="Katemangostar Author">
                     Designed by katemangostar / Freepik
                 </a>
                 <br />
@@ -381,19 +433,19 @@
                 <h4 class="font-weight-bold text-uppercase">
                     <span data-t="sitemap">Site Map</span>
                 </h4>
-                <a class="nav-link p-0 text-uppercase hme" href="/#">
+                <a class="nav-link p-0 text-uppercase hme cl" href="/#">
                     <span data-t="home">Home</span>
                 </a>
-                <a class="nav-link p-0 text-uppercase hme" href="/#about">
+                <a class="nav-link p-0 text-uppercase hme cl" href="/#about">
                     <span data-t="about">About</span>
                 </a>
-                <a class="nav-link p-0 text-uppercase hme" href="/#whatwedo">
+                <a class="nav-link p-0 text-uppercase hme cl" href="/#whatwedo">
                     <span data-t="whatwedo">What we do</span>
                 </a>
-                <a class="nav-link p-0 text-uppercase hme" href="/#contact">
+                <a class="nav-link p-0 text-uppercase hme cl" href="/#contact">
                     <span data-t="contact">Contact</span>
                 </a>
-                <a class="nav-link p-0 text-uppercase hme" href="/#credits" id="clickShowCredits">
+                <a class="nav-link p-0 text-uppercase hme cl" href="/#credits" id="clickShowCredits">
                     <span data-t="credits">Credits</span>
                 </a>
             </div>

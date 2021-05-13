@@ -54,5 +54,9 @@
     "imgaltValues":"Values",
     "whatsappLink":"Whatsapp link",
     "goToOtherLangpage": "Ir para página em Português",
-    "enHtmlAttr": "en"
+    "enHtmlAttr": "en",
+    "Messenger": "Messenger:",
+    "messengerLink": "Messenger link",
+    "facebookLink": "Facebook link",
+    "EmailLink": "Link to send an email"
 }
