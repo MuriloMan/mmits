@@ -10,7 +10,7 @@ $(function () {
 
     $.get('/mmits-config.json', function (data) {
         $('#yearmmits').html(data.year);
-        $('#versionmmits').html(data.version);
+        $('#versionmmits').html("v" + data.version);
     }, 'json');
 
 
