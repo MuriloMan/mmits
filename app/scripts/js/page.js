@@ -1,18 +1,12 @@
 $(function () {
-
-
     $('#clickShowCredits').on('click', function () {
-        if ($('#credits').hasClass('d-none'))
-            $('#credits').removeClass('d-none');
-        else
-            $('#credits').addClass('d-none');
+        $('#credits').toggleClass('d-none');
     });
 
     $.get('/mmits-config.json', function (data) {
         $('#yearmmits').html(data.year);
         $('#versionmmits').html("v" + data.version);
     }, 'json');
-
 
     //auto call function, fix link english version
     (function () {
@@ -39,4 +33,8 @@ $(function () {
         }
     })();
 
+    //Writing log to cheaters
+    (function(){
+        console.log("%cWanna know something buddy? %c \n all the website code is available in %c https://github.com/MuriloMan/mmits","color:red;font-size:40px", "color:green; font-size:16px", "color:blue; font-size:16px;");
+    })();
 });
