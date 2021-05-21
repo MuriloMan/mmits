@@ -89,14 +89,22 @@
     "whatwedo": "What we do",
     "projectsandtechs": "Projects and Technologies used",
 
-    "anacaerodesporto": "ANAC - AERODESPORTO, Government ANAC Aircraft and Aircraft Site Registration. (FullStack + DBA), (.NET MVC 5, REST API, NUnit Tests, HTML5, CSS, bootstrap 3, JQuery, SQL Server, Entity Framework, Oracle, Web Services, TFS)",
-    "anacdcerta": "ANAC - DCERTA, Aircraft control system, Airport for safe takeoff. (FullStack + DBA), (.NET MVC5, REST API, NUnit Tests, HTML5, CSS, bootstrap 3, JQuery, SQLServer, Entity Framework, Oracle, Web Services, TFS)",
-    "anacaeco": "ANAC - AECO, Airport construction process management system. (FullStack + DBA), (.NET MVC5, REST API, NUnit Tests, HTML5, CSS, bootstrap 3, JQuery, SQL Server, Entity Framework, Oracle, Web Services, TFS)",
-    "anacpsa": "ANAC - PSA, Airport Security Program. (FullStack + DBA), (.NET MVC 5, REST API, NUnit Tests, HTML5, CSS, bootstrap 4, JQuery, AngularJS, SQL Server, EntityFramework, Oracle, Web Services, TFS)",
-    "visionchampionsprojectdesc": "Vision Champions 365, app for SharePoint online (Microsoft project) (Full Stack), (CosmosDB NOSQL, AngularJS, REST API, WebServices)",
-    "martinsdesc":"Martins - Sales Management System (Full Stack). (SQL Server, MVC 5, Bootstrap 3, Entity Framework)",
-    "cpfldesc": "Internal SharePoint Power System online. (Full Stack). (Workflow Online, AngularJS, Lists, TimerJobs)",
-    "hospsamaritanoesc": "TODO",
-    "pagsegurodesc": "TODO"
+    "anacaerodesporto": "ANAC - AERODESPORTO, Government ANAC Aircraft and Aircraft Site Registration. (FullStack + DBA + UI/UX Analyst), (.NET MVC 5, REST API, NUnit Tests, HTML5, CSS, bootstrap 3, JQuery, SQL Server, Entity Framework, Oracle, Web Services, TFS).",
+    "anacdcerta": "ANAC - DCERTA, Aircraft control system, Airport for safe takeoff. (FullStack + DBA + UI/UX Analyst), (.NET MVC5, REST API, NUnit Tests, HTML5, CSS, bootstrap 3, JQuery, SQLServer, Entity Framework, Oracle, Web Services, TFS).",
+    "anacaeco": "ANAC - AECO, Airport construction process management system. (FullStack + DBA + UI/UX Analyst), (.NET MVC5, REST API, NUnit Tests, HTML5, CSS, bootstrap 3, JQuery, SQL Server, Entity Framework, Oracle, Web Services, TFS).",
+    "anacpsa": "ANAC - PSA, Airport Security Program. (FullStack + DBA + UI/UX Analyst), (.NET MVC 5, REST API, NUnit Tests, HTML5, CSS, bootstrap 4, JQuery, AngularJS, SQL Server, EntityFramework, Oracle, Web Services, TFS).",
+    "visionchampionsprojectdesc": "Vision Champions 365, app for SharePoint online (Microsoft project) (Full Stack + UI/UX Analyst), (CosmosDB NOSQL, AngularJS, REST API, WebServices).",
+    "martinsdesc":"Martins - Sales Management System (Full Stack + UI/UX Analyst). (SQL Server, MVC 5, Bootstrap 3, Entity Framework).",
+    "cpfldesc": "Internal SharePoint Power System online. (Full Stack + UI/UX Analyst). (Workflow Online, AngularJS, Lists, TimerJobs).",
+    "hospsamaritanoesc": "Support SharePoint (Full Stack), (Workflows, Farm health, Services, Deploys, JQuery, Lists, TimerJobs, Sharepoint apps).",
+    "pagsegurodesc": "UOL - Access Granting PAGSEGURO, PAYWARE SharePoint App (Full Stack + UI/UX Analyst), (Workflows, AngularJS, SPLists, Timer jobs).",
+    "tribancodesc": "Tribanco Martins, hierarchy management system (Full Stack + UI/UX Analyst). (WorkFlow Online, AngularJS, Lists, CSS, Bootstrap 3).",
+    "mycapWebHbdesc": "MyCap web homebroker - Investments, (FullStack + DBA + UI/UX Analyst), (.NET MVC 5, REST API, HTML5, Bootstrap 4, JQuery, SQL Server, Oracle PL-SQL,  Microservices architecture, Kanban, Jira, Angular version 5, 6, 8, 10 and 11).",
+    "mycapAppdesc": "MinhaConta App - MyCap Investments, (FullStack + DBA + UI/UX Analyst), (Flutter, Dart, Api .Net Framework, microservices architecture).",
+    "pwcdesc": "Support SharePoint Price Water Coopers PWC (Full Stack), (Workflows, Farm health, Services, Deploys, JQuery, AngularJS, Lists, TimerJobs).",
+    "bancotokyodesc": "Support SharePoint Banco Tokyo MUFG (Full Stack), (Workflows, Farm health, Services, Deploys, JQuery, AngularJS, Lists, TimerJobs).",
+    "magitdesc": "IT Consulting | UI/UX analysis | Usability and Accessability tests | Web Developments",
+    "programmersdesc": "IT Consulting | UI/UX analysis | Usability and Accessability tests | Web Developments",
+    "castgroupdesc": "IT Consulting | UI/UX analysis | Usability and Accessability tests | Web Developments"
 
 }

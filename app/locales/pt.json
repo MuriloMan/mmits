@@ -89,14 +89,22 @@
     "whatwedo": "O que fazemos",
     "projectsandtechs": "Projetos e tecnologias utilizadas",
 
-    "anacaerodesporto": "ANAC - AERODESPORTO, Government ANAC Aircraft and Aircraft Site Registration. (FullStack + DBA), (.NET MVC 5, REST API, NUnit Tests, HTML5, CSS, bootstrap 3, JQuery, SQL Server, Entity Framework, Oracle, Web Services, TFS)",
-    "anacdcerta": "ANAC - DCERTA, Aircraft control system, Airport for safe takeoff. (FullStack + DBA), (.NET MVC5, REST API, NUnit Tests, HTML5, CSS, bootstrap 3, JQuery, SQLServer, Entity Framework, Oracle, Web Services, TFS)",
-    "anacaeco": "ANAC - AECO, Airport construction process management system. (FullStack + DBA), (.NET MVC5, REST API, NUnit Tests, HTML5, CSS, bootstrap 3, JQuery, SQL Server, Entity Framework, Oracle, Web Services, TFS)",
-    "anacpsa": "ANAC - PSA, Airport Security Program. (FullStack + DBA), (.NET MVC 5, REST API, NUnit Tests, HTML5, CSS, bootstrap 4, JQuery, AngularJS, SQL Server, EntityFramework, Oracle, Web Services, TFS)",
-    "visionchampionsprojectdesc": "Vision Champions 365, app para SharePoint online (Microsoft project) (Full Stack), (CosmosDB NOSQL, AngularJS, REST API, WebServices)",
-    "martinsdesc":"Martins - Sistema de Gerenciamento de Vendas (Full Stack). (SQL Server, MVC 5, Bootstrap 3, Entity Framework)",
-    "cpfldesc": "Sistema Interno de Energia SharePoint online. (Full Stack). (Workflow Online, AngularJS, Lists, TimerJobs)",
-    "hospsamaritanoesc": "TODO",
-    "pagsegurodesc": "TODO"
+    "anacaerodesporto": "ANAC - AERODESPORTO, Government ANAC Aircraft and Aircraft Site Registration. (FullStack + DBA + Analista de UI/UX), (.NET MVC 5, REST API, NUnit Tests, HTML5, CSS, bootstrap 3, JQuery, SQL Server, Entity Framework, Oracle, Web Services, TFS).",
+    "anacdcerta": "ANAC - DCERTA, Aircraft control system, Airport for safe takeoff. (FullStack + DBA + Analista de UI/UX), (.NET MVC5, REST API, NUnit Tests, HTML5, CSS, bootstrap 3, JQuery, SQLServer, Entity Framework, Oracle, Web Services, TFS).",
+    "anacaeco": "ANAC - AECO, Airport construction process management system. (FullStack + DBA + Analista de UI/UX), (.NET MVC5, REST API, NUnit Tests, HTML5, CSS, bootstrap 3, JQuery, SQL Server, Entity Framework, Oracle, Web Services, TFS).",
+    "anacpsa": "ANAC - PSA, Airport Security Program. (FullStack + DBA + Analista de UI/UX), (.NET MVC 5, REST API, NUnit Tests, HTML5, CSS, bootstrap 4, JQuery, AngularJS, SQL Server, EntityFramework, Oracle, Web Services, TFS).",
+    "visionchampionsprojectdesc": "Vision Champions 365, app para SharePoint online (Microsoft project) (Full Stack + Analista de UI/UX), (CosmosDB NOSQL, AngularJS, REST API, WebServices).",
+    "martinsdesc":"Martins - Sistema de Gerenciamento de Vendas (Full Stack + Analista de UI/UX). (SQL Server, MVC 5, Bootstrap 3, Entity Framework).",
+    "cpfldesc": "Sistema Interno de Energia SharePoint online. (Full Stack + Analista de UI/UX). (Workflow Online, AngularJS, Lists, TimerJobs).",
+    "hospsamaritanoesc": "Suporte em SharePoint (Full Stack), (Workflows, Farm health, Services, Deploys, JQuery, Lists, TimerJobs, Sharepoint apps).",
+    "pagsegurodesc": "UOL Concessão de acessos, PAGSEGURO, PAYWARE SharePoint App (Full Stack + Analista de UI/UX), (Workflows, AngularJS, SPLists, Timer jobs).",
+    "tribancodesc": "Tribanco Martins, Sistema de gerenciamento de hierarquia em SharePoint (Full Stack + Analista de UI/UX). (WorkFlow Online, AngularJS, Lists, CSS, Bootstrap 3).",
+    "mycapWebHbdesc": "MyCap web homebroker - Investments, (FullStack + DBA + Analista de UI/UX), (.NET MVC 5, REST API, HTML5, Bootstrap 4, JQuery, SQL Server, Oracle PL-SQL,  Microservices architecture, Kanban, Jira, Angular version 5, 6, 8, 10 and 11).",
+    "mycapAppdesc": "MinhaConta App - MyCap Investimentos, (FullStack + DBA + Analista de UI/UX), (Flutter, Dart, Api .Net Framework, microservices architecture).",
+    "pwcdesc": "Suporte SharePoint Price Water Coopers PWC (Full Stack), (Workflows, Farm health, Services, Deploys, JQuery, AngularJS, Lists, TimerJobs).",
+    "bancotokyodesc": "Suporte SharePoint Banco Tokyo MUFG (Full Stack), (Workflows, Farm health, Services, Deploys, JQuery, AngularJS, Lists, TimerJobs).",
+    "magitdesc": "Consultoria em TI | Analises de UI/UX | Testes de usabilidade e acessibilidade | Desenvolvimento Web",
+    "programmersdesc": "Consultoria em TI | Analises de UI/UX | Testes de usabilidade e acessibilidade | Desenvolvimento Web",
+    "castgroupdesc": "Consultoria em TI | Analises de UI/UX | Testes de usabilidade e acessibilidade | Desenvolvimento Web"
     
 }
