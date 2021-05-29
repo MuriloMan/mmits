@@ -1,0 +1,21 @@
+doctype html
+html(lang="en" data-attr-t lang-t="enHtmlAttr")
+    head
+        include views/seo.pug
+
+        //- Style
+        link(rel="stylesheet" href="/styles/styles.min.css" type="text/css")
+
+        //- Scripts
+        script(src="/scripts/mmits-script.min.js" defer)
+
+        //- Google tag Manager
+        include /scripts/google-tag-manager.js
+    body
+
+        //- Google Tag Manager (noscript)
+        noscript
+            iframe(src="https://www.googletagmanager.com/ns.html?id=GTM-KJSPGFH" height="0" width="0" style="display:none;visibility:hidden")
+
+        div(class="container-fluid")
+            include views/main.pug

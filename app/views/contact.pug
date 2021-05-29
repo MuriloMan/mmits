@@ -1,0 +1,28 @@
+//-
+    Contact
+div(class="row mt-4 maxwidth mx-auto" id="contact")
+
+    //- Title
+    +title('contact')
+
+    include contact/contact-item.pug
+
+    //- Email
+    - var emailContent = "murilo<br class=\"d-block d-lg-none\" />@mmits<br class=\"d-block d-sm-none\" />-it-<br class=\"d-block d-sm-none\" />partner<br class=\"d-block d-md-none\" />.com";
+    +contactItem("email","mailto:murilo@mmits-it-partner.com","EmailLink",emailContent)
+
+    //- Phone
+    - var phoneContent = "<strong>+55 (11) <br class=\"d-block d-md-none\" />93384-9110</strong>";
+    +contactItem("phone","#","EmailLink",phoneContent)
+
+    //- Facebook
+    - var facebookContent = "fb.com/<br class=\"d-block d-md-none\" />MMITS<br class=\"d-block d-md-none\" />IT<br class=\"d-block d-md-none\" />PARTNER";
+    +contactItem("facebook","https://fb.com/MMITSITPARTNER","facebookLink",facebookContent)
+
+    //- Whatsapp
+    - var whatsappContent = "+55 (11) <br class=\"d-block d-md-none\" />93384-9110";
+    +contactItem("whatsapp","https://api.WhatsApp.com/send?phone=5511933849110","whatsappLink",whatsappContent)
+
+    //- Messenger
+    - var chatContent = "m.me/<br class=\"d-block d-md-none\" />MMITS<br class=\"d-block d-md-none\" />IT<br class=\"d-block d-md-none\" />PARTNER";
+    +contactItem("Messenger","https://m.me/MMITSITPARTNER","messengerLink",chatContent)

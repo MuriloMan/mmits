@@ -1,0 +1,96 @@
+//- Portfolio
+div(class="row mt-4 maxwidth mx-auto" id="portfolio")
+
+    //- Title
+    +title("portfolio")
+
+    //- Items
+    div(class="col-12 my-4")
+        div(class="row space-evenly")
+
+            include portfolio/portfolio-item.pug
+
+            //- ANAC
+            +portfolioItem("ANAC","anacimg","anacprj","anacportfolio")
+
+            //- Sharepoint App
+            +portfolioItem("SHAREPOINT_365","sharepointimg","sharepointprj","sharepointportfolio")
+
+            //- Martins
+            +portfolioItem("MARTINS","martinsimg","martinsprj","martinsportfolio")
+
+            //- CPFL
+            +portfolioItem("CPFL","cpflimg","cpflprj","cpflportfolio")
+
+            //- HOSP_SAMARITANO
+            +portfolioItem("HOSP_SAMARITANO","hospsamaritanoimg","hospsamaritanoprj","hospsamaritanoportfolio")
+
+            //- PAGSEGURO
+            +portfolioItem("PAGSEGURO","pagseguroimg","pagseguroprj","pagseguroportfolio")
+
+            //- TRIBANCO
+            +portfolioItem("TRIBANCO","tribancoimg","tribancoprj","tribancoportfolio")
+
+            //- MYCAP
+            +portfolioItem("MYCAP","mycapimg","pwcprj","mycapportfolio")
+            
+            //- PWC
+            +portfolioItem("PWC","pwcimg","mycapprj","pwcportfolio")
+
+            //- Banco Tokyo
+            +portfolioItem("BANCO_TOKYO","bancotokyoimg","bancotokyoprj","bancotokyoportfolio")
+
+            //- MAGIT
+            +portfolioItem("MAGIT","magitimg","magitprj","magitportfolio")           
+
+            //- PROGRAMMERS
+            +portfolioItem("PROGRAMMERS","programmersimg","programmersprj","programmersportfolio")
+            
+            //- CastGroup
+            +portfolioItem("CASTGROUP","castgroupimg","castgroupprj","castgroupportfolio")
+    
+
+
+    //- ItemsDesc
+    div(class="col-12")
+
+        include portfolio/portfolio-item-desc.pug
+        
+        //- Anac
+        +itemDesc("anacportfolio", "ANAC", "anacimg", "anacprj", "anacaerodesporto","anacdcerta","anacaeco","anacpsa")
+
+        //- SharePoint app
+        +itemDesc("sharepointportfolio", "SHAREPOINT_365", "sharepointimg", "sharepointprj", "visionchampionsprojectdesc")
+
+        //- Martins
+        +itemDesc("martinsportfolio", "MARTINS", "martinsimg", "martinsprj", "martinsdesc")
+
+        //- CPFL
+        +itemDesc("cpflportfolio", "CPFL", "cpflimg", "cpflprj", "cpfldesc")
+
+        //- Hospital Samaritano
+        +itemDesc("hospsamaritanoportfolio", "HOSP_SAMARITANO", "hospsamaritanoimg", "hospsamaritanoprj", "hospsamaritanoesc")
+        
+        //- PAGSEGURO
+        +itemDesc("pagseguroportfolio", "PAGSEGURO", "pagseguroimg", "pagseguroprj", "pagsegurodesc")
+
+        //- TRIBANCO
+        +itemDesc("tribancoportfolio", "TRIBANCO", "tribancoimg", "tribancoprj", "tribancodesc")
+        
+        //- MYCAP
+        +itemDesc("mycapportfolio", "MYCAP", "mycapimg", "mycapprj", "mycapWebHbdesc", "mycapAppdesc")
+        
+        //- PWC
+        +itemDesc("pwcportfolio", "PWC", "pwcimg", "pwcprj", "pwcdesc")
+
+        //- BANCO TOKYO MUFG
+        +itemDesc("bancotokyoportfolio", "BANCO_TOKYO", "bancotokyoimg", "bancotokyoprj", "bancotokyodesc")
+
+        //- MAGIT
+        +itemDesc("magitportfolio", "MAGIT", "magitimg", "magitprj", "magitdesc")
+
+        //- PROGRAMMERS
+        +itemDesc("programmersportfolio", "PROGRAMMERS", "programmersimg", "mycapprj", "programmersdesc")
+
+        //- CASTGROUP
+        +itemDesc("castgroupportfolio", "CASTGROUP", "castgroupimg", "castgroupprj", "castgroupdesc")
