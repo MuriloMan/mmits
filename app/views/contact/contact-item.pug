@@ -6,4 +6,5 @@ mixin contactItem(itemName, link, titleLink, content)
                 hr(class="d-md-none")
             div(class="col-12 col-md-9 col-lg-9 attr-contact-value text-center text-md-left")
                 strong
-                    a(href=link data-attr-t target="_blank" title-t=titleLink title="Desc Link")=content
+                    a(href=link data-attr-t target="_blank" title-t=titleLink title="Desc Link")
+                        | !{content}

@@ -1,6 +1,7 @@
 /node_modules
 /styles/styles.min.css
 /scripts/mmits-script.min.js
+/app/index.html
 /.sass*
 /dist
 /i18n

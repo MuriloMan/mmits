@@ -7,8 +7,10 @@
     "gulp": "^4.0.2",
     "gulp-browserify": "^0.5.1",
     "gulp-cli": "^2.3.0",
+    "gulp-pug": "^4.0.1",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.1.0",
+    "gulp-static-i18n-html": "^0.4.0",
     "gulp-uglify": "^3.0.2",
     "http-server": "^0.12.3",
     "static-i18n": "^0.2.10"
