@@ -3,14 +3,8 @@
 ## Init
 > $npm install
 
-## to build
-> $./mmits-build
-
-## to deploy
-> $./mmits-deploy.sh
-
-## i18n
-> $static-i18n -o="dist/" -l="pt" -i="pt" app/
+## Updating build mmits
+> $./mmits-build && ./mmits-deploy.sh
 
 ## Run
 To run, open 2 terminals, the first one:
